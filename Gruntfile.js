@@ -70,7 +70,7 @@ module.exports = function(grunt) {
   // Default task(s).
   grunt.registerTask('css', ['stylus']);
   grunt.registerTask('typescript', 'ts');
-  grunt.registerTask('build', ['stylus', 'ts', 'handlebars', 'uglify']);
+  grunt.registerTask('build', ['stylus', 'ts', 'handlebars', 'uglify', 'svgstore']);
   grunt.registerTask('default', ['watch']);
   
 
