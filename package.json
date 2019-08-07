@@ -1,14 +1,14 @@
 {
-  "name": "trizbort.io",
-  "version": "1.0.0",
-  "description": "Trizbort.io is a JavaScript implementation of Trizbort, the adventure game mapping and code generation software. It aims to provide all Trizbort features in the browser, so that no download is required to create and share Trizbort maps,and generate code for TADS, Inform, Quest and other adventure design systems.",
+  "name": "yggdrasil",
+  "version": "0.0.1",
+  "description": "Yggdrasil is a fork of Alexander van Oostenrijk's Trizbort.io. A JavaScript implementation of Trizbort, the adventure game mapping and code generation software. It seeks to be a user-friendly authoring tool for Middangeard based Interactive Fiction",
   "main": "app.js",
   "scripts": {
     "build": "grunt build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "node dev-server.js"
   },
-  "author": "Alexander van Oostenrijk / Independent Software (www.independent-software.com)",
+  "author": "Mark 'Happy-Ferret' Bauermeister",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
