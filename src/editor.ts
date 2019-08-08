@@ -77,6 +77,7 @@ export class Editor implements Subscriber {
     this.ctrlZoom.addEventListener('change', () => { this.cmdZoom(); });
     this.updateZoomPercentage();
     document.getElementById('canvas').addEventListener('keyup', (e: KeyboardEvent) => { this.keyUp(e); });
+    document.getElementById('canvas').addEventListener('keydown', (e: KeyboardEvent) => { this.keyDown(e); });
 
     this.resize();
 
@@ -106,14 +107,6 @@ export class Editor implements Subscriber {
         case 'F2':
           this.cmdShowPanel();
           break;
-        case 'ArrowRight': this.moveCenter(1, 0); break;
-        case 'ArrowLeft':  this.moveCenter(-1, 0); break;
-        case 'ArrowUp':    this.moveCenter(0, -1); break;
-        case 'ArrowDown':  this.moveCenter(0, 1); break;
-        case 'PageUp':     this.moveCenter(1, -1); break;
-        case 'PageDown':   this.moveCenter(1, 1); break;
-        case 'End':        this.moveCenter(-1, 1); break;
-        case 'Home':       this.moveCenter(-1, -1); break;          
       }
     }
 
@@ -144,6 +137,22 @@ export class Editor implements Subscriber {
     }
 
     e.preventDefault();
+  }
+
+  keyDown(e: KeyboardEvent) {
+    console.log("Key down: ", e);
+    if(!e.ctrlKey && !e.shiftKey) {
+      switch(e.key) {
+        case 'ArrowRight': this.moveCenter(-1, 0); break;
+        case 'ArrowLeft':  this.moveCenter(1, 0); break;
+        case 'ArrowUp':    this.moveCenter(0, 1); break;
+        case 'ArrowDown':  this.moveCenter(0, -1); break;
+        case 'PageUp':     this.moveCenter(-1, 1); break;
+        case 'PageDown':   this.moveCenter(-1, -1); break;
+        case 'End':        this.moveCenter(1, -1); break;
+        case 'Home':       this.moveCenter(1, 1); break;
+      }
+    }
   }
 
   notify(event: AppEvent, model: Model) {

@@ -2,6 +2,12 @@
 
 All notable changes to "Yggdrasil" will be documented in this file.
 
+## [0.0.2] - 2019-08-08
+
+#### Improvement
+* Inverted keyboard navigation (arrow keys, Page Up/Down, Home/End).
+* Movement events are now fired during keydown, for continuous, swift navigation.
+
 ## [0.0.1] - 2019-08-07
 
 #### Initial release
