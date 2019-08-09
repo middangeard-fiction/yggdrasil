@@ -57,12 +57,21 @@ module.exports = function(grunt) {
           'dist/icons.svg': [ 'svg/*.svg' ]
         }
       }
-    }  
+    },
+    copy: {
+      main: {
+        files: [
+          // includes files within path
+          {src: ['index.html', 'style.css', 'dist/**'], dest: 'desktop-app/resources/app/', filter: 'isFile'},
+        ],
+      },
+    },
   });
 
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-stylus');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-handlebars-compiler');
   grunt.loadNpmTasks('grunt-ts');
   grunt.loadNpmTasks('grunt-svgstore');
@@ -71,6 +80,7 @@ module.exports = function(grunt) {
   grunt.registerTask('css', ['stylus']);
   grunt.registerTask('typescript', 'ts');
   grunt.registerTask('build', ['stylus', 'ts', 'handlebars', 'uglify', 'svgstore']);
+  grunt.registerTask('bin-build', ['build', 'copy']);
   grunt.registerTask('default', ['watch']);
   
 
