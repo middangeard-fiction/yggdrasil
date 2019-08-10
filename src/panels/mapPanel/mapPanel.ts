@@ -12,6 +12,7 @@ export class MapPanel extends Panel implements Subscriber {
 
   private ctrlTitle: IdInput;
   private ctrlAuthor: IdInput;
+  private ctrlVersion: IdInput;
   private ctrlDescription: IdTextarea;
 
   constructor() {
@@ -20,6 +21,7 @@ export class MapPanel extends Panel implements Subscriber {
 
     this.ctrlTitle = new IdInput('.js-title', this.elem).addEventListener('input', () => { App.map.title = this.ctrlTitle.value; });
     this.ctrlAuthor = new IdInput('.js-author', this.elem).addEventListener('input', () => { App.map.author = this.ctrlAuthor.value; });
+    this.ctrlVersion = new IdInput('.js-version', this.elem).addEventListener('input', () => { App.map.version = this.ctrlVersion.value; });
     this.ctrlDescription = new IdTextarea('.js-description', this.elem).addEventListener('input', () => { App.map.description = this.ctrlDescription.value; });
   }
 
@@ -31,6 +33,7 @@ export class MapPanel extends Panel implements Subscriber {
         // Place map data in controls:
         this.ctrlTitle.value = App.map.title; 
         this.ctrlAuthor.value = App.map.author;
+        this.ctrlVersion.value = App.map.version;
         this.ctrlDescription.value = App.map.description;
       }
       else {

@@ -7,6 +7,7 @@ import { Connector } from './connector.js';
 export class Map {
   title: string;
   author: string;
+  version: string;
   description: string;
   elements: Model[];
   startRoom: Room;
@@ -18,6 +19,7 @@ export class Map {
 
     this.title = "Untitled map";
     this.author = "";
+    this.version = "0.0.1";
     this.description = "";
     this.elements = new Array();
     this.startRoom = null;
