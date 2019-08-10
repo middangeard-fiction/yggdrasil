@@ -15,6 +15,7 @@ import { QuestGenerator } from '../../codegen/quest/questGenerator.js';
 import { Canvas } from '../../drawing/canvas.js';
 import { Exporter } from '../../exporter.js';
 import { CodeGenerator } from '../../codegen/CodeGenerator.js';
+import { Middangeard1Generator } from '../../codegen/middangeard1/middangeard1Generator.js';
 
 export class MenuPanel extends Panel {
   private loader: any;
@@ -40,6 +41,7 @@ export class MenuPanel extends Panel {
     this.createMenuItem('#menu-map', () => { this.actionMapSettings(); });
     this.createMenuItem('#menu-render', () => { this.actionRenderSettings(); });
     this.createMenuItem('#menu-export');
+    this.createMenuItem('#menu-export-middangeard1', () => { this.actionGenerateCode(new Middangeard1Generator(App.map), 'go'); });
     this.createMenuItem('#menu-export-tads', () => { this.actionGenerateCode(new TadsGenerator(App.map), 't3'); });
     this.createMenuItem('#menu-export-inform7', () => { this.actionGenerateCode(new Inform7Generator(App.map), 'ni'); });
     this.createMenuItem('#menu-export-alan2', () => { this.actionGenerateCode(new Alan2Generator(App.map), 'a2c'); });

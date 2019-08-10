@@ -1,0 +1,41 @@
+package main
+
+import (
+	mid "github.com/middangeard-fiction/middangeard"
+)
+
+var game mid.Game
+
+func main() {
+	game.NewGame(mid.Display.Console)
+}
+
+func init() {
+	game = mid.Game{
+		Title:  "{{{map.title}}}",
+		Author: "{{{map.author}}}",
+		Intro: `{{{map.description}}}`,
+	}
+
+	game.Player = mid.Player{
+		Name:        "Nameless Hero",
+		Description: "Just an average individual.",
+		Location:    "{{{className map.startRoom.name}}}",
+		Score:       0,
+	}
+
+	game.Rooms = map[string]*mid.Room{
+    {{#each map.rooms}}
+		"{{className this.name}}": {
+			Name: "{{{this.name}}}",
+			Description: `{{{this.description}}}`,
+			Lit: {{#if this.dark}}false{{else}}true{{/if}},
+			Directions: mid.Directions{
+        {{#each this.connections}}
+                {{ dirToStr this.startDir }}: "{{{className this.room.name}}}",
+          {{/each}}
+			},
+		},
+    {{/each}}
+    }
+}
