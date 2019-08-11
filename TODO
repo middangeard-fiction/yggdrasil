@@ -1,0 +1,41 @@
+
+0.2.0:
+  Desktop App:
+    ✔ Extended menu bar @done(19-08-11 19:22)
+      ✔ File menu @done(19-08-11 19:22)
+        ✔ New Map @done(19-08-11 17:56)
+        ✔ Open Map @done(19-08-11 17:56)
+        ✔ Open Trizbort Map @started(19-08-11 17:45) @done(19-08-11 18:28) @lasted(43m4s)
+        ✔ Save As @done(19-08-11 17:56)
+        ✔ Save As Image @done(19-08-11 17:56)
+        ✔ Export @done(19-08-11 19:21)
+          ✔ Middangeard 1 @done(19-08-11 17:56)
+          ✔ TADS @done(19-08-11 17:56)
+          ✔ Inform 7 @done(19-08-11 17:56)
+          ✔ Alan 2 @started(19-08-11 19:03) @done(19-08-11 19:21) @lasted(18m39s)
+          ✔ Alan 3 @started(19-08-11 19:03) @done(19-08-11 19:21) @lasted(18m42s)
+          ✔ Quest @started(19-08-11 19:03) @done(19-08-11 19:21) @lasted(18m47s)
+      ✔ Settings (map & render) @done(19-08-11 17:50)
+  General:
+    ☐ Middangeard 1 exporter
+      ✔ Basic game structure @done(19-08-11 17:51)
+      ☐ Rooms
+        ✔ Descriptions @done(19-08-11 17:50)
+        ✔ Directions @done(19-08-11 17:51)
+        ☐ Items
+      ☐ Items
+   
+    ☐ Extended Map Settings
+      ✔ Map version field @done(19-08-11 17:49)
+      ☐ Player character tab
+        ☐ Name
+        ☐ Description
+
+0.3.0:
+  ☐ l10n support
+    ☐ Localize desktop app menu bar
+    ☐ Localize general UI
+
+
+Bugs:
+  ☐ When using "Import Trizbort Map" from the UI (not the desktop file menu) more than once, the import fails silently.
