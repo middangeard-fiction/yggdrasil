@@ -16,6 +16,7 @@ export class App {
   //   so that GUI components may access and change them globally.
   // - App also manages the selection of views.
   static map: Map = new Map();
+  static menuPanel: MenuPanel;
   static canvas: any;
   static zoom: number = 1;
   static centerX: number = 0;
@@ -43,7 +44,6 @@ export class App {
     let connectorPopup = new ConnectorPopup;
     let renderPanel = new RenderPanel();
     let mapPanel = new MapPanel();
-    let menuPanel = new MenuPanel();
     let notePanel = new NotePanel();
     let notePopup = new NotePopup();
     let toolPanel = new ToolPanel();
@@ -52,6 +52,8 @@ export class App {
     let roomPanel = new RoomPanel();
     let blockPopup = new BlockPopup();    
     let connectorPanel = new ConnectorPanel();
+
+    this.menuPanel = new MenuPanel();
   }  
 
   static pushUndo() {
