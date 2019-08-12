@@ -31,6 +31,11 @@
         ☐ Name
         ☐ Description
 
+  Bugs:
+    ✔ On cancel, prompts retain their context. I e if the user cancels the "Exit" prompt and then confirms a "New Map" prompt, the app exits instead of opening an empty map. @done(19-08-12 18:49)
+      ✔ Analysis @started(19-08-12 13:50) @done(19-08-12 14:34) @lasted(44m43s) => Multiple instances of Window
+      ✔ Null onOk/onCancel. @started(19-08-12 18:44) @done(19-08-12 18:48) @lasted(4m53s)
+
 0.3.0:
   ☐ l10n support
     ☐ Localize desktop app menu bar
@@ -40,6 +45,6 @@
 Bugs:
   ☐ When using "Import Trizbort Map" from the UI (not the desktop file menu) more than once, the import fails silently.
 
-  ☐ On cancel, prompts retain their context. I e if the user cancels the "Exit" prompt and then confirm a "New Map" prompt, the app exits instead of opening an empty map.
-    ✔ Analysis @started(19-08-12 13:50) @done(19-08-12 14:34) @lasted(44m43s) => Multiple instances of Window
-    ☐ Change to singleton (https://medium.com/javascript-everyday/singleton-made-easy-with-typescript-6ad55a7ba7ff)
+Optimizations:
+  ☐ Change Window to singleton (https://medium.com/javascript-everyday/singleton-made-easy-with-typescript-6ad55a7ba7ff) 
+    ☐ (might be difficult/impossible, since properties still need to be mutable)
