@@ -14,6 +14,7 @@ var (
 	BuiltAt string
 	debug   = flag.Bool("d", false, "enables the debug mode")
 	w       *astilectron.Window
+	a       *astilectron.Astilectron
 )
 
 func main() {
@@ -250,8 +251,9 @@ func main() {
 				},
 			},
 		},
-		OnWait: func(_ *astilectron.Astilectron, ws []*astilectron.Window, _ *astilectron.Menu, _ *astilectron.Tray, _ *astilectron.Menu) error {
+		OnWait: func(app *astilectron.Astilectron, ws []*astilectron.Window, _ *astilectron.Menu, _ *astilectron.Tray, _ *astilectron.Menu) error {
 			w = ws[0]
+			a = app
 			return nil
 		},
 		RestoreAssets: RestoreAssets,
