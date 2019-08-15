@@ -11,6 +11,8 @@ import { Exporter } from '../../exporter';
 import { CodeGenerator, TadsGenerator, Inform7Generator, Alan2Generator, Alan3Generator, 
          QuestGenerator, Middangeard1Generator, TextadventurejsGenerator } from '../../codegen/CodeGeneration'
 
+import { IdToast } from '../../controls/controls';
+
 export class MenuPanel extends Panel {
   private inputLoad: HTMLInputElement;
   private inputImport: HTMLInputElement;
@@ -33,6 +35,7 @@ export class MenuPanel extends Panel {
     this.createMenuItem('#menu-image', () => { this.actionExport(); });
     this.createMenuItem('#menu-map', () => { this.actionMapSettings(); });
     this.createMenuItem('#menu-render', () => { this.actionRenderSettings(); });
+    this.createMenuItem('#menu-help', () => { this.actionHelp(); });
     this.createMenuItem('#menu-export');
     this.createMenuItem('#menu-export-middangeard1', () => { this.actionGenerateCode(new Middangeard1Generator(App.map), 'go'); });
     this.createMenuItem('#menu-export-tads', () => { this.actionGenerateCode(new TadsGenerator(App.map), 't3'); });
@@ -148,6 +151,116 @@ export class MenuPanel extends Panel {
 
   actionRenderSettings() {
     Dispatcher.notify(AppEvent.More, App.map.settings);
+  }
+
+  actionHelp() {
+    IdToast.toast("Keyboard help", `
+    <table>
+      <tbody>
+        <tr>
+          <th>
+            <h4>Selection</h4>
+            <table>
+              <tbody>
+                <tr>
+                  <td><kbd>Ctrl</kbd><kbd>A</kbd></td>
+                  <td>Select all</td>
+                </tr>
+                <tr>
+                  <td><kbd>Esc</kbd></td>
+                  <td>Unselect all</td>
+                </tr>        
+                <tr>
+                  <td><kbd>Ctrl</kbd><kbd>C</kbd></td>
+                  <td>Copy selection</td>
+                </tr>        
+                <tr>
+                  <td><kbd>Ctrl</kbd><kbd>V</kbd></td>
+                  <td>Paste selection</td>
+                </tr>        
+                <tr>
+                  <td><kbd>Del</kbd></td>
+                  <td>Delete current selection</td>
+                </tr>
+                <tr>
+                  <td><kbd>Ctrl</kbd><kbd>Z</kbd></td>
+                  <td>Undo</td>
+                </tr>
+                <tr>
+                  <td><kbd>Enter</kbd> or <kbd>F2</kbd></td>
+                  <td>Open detail panel</td>
+                </tr>
+              </tbody>
+            </table>   
+          </th>
+          <th>
+            <h4>Navigation</h4>
+            <table>
+              <tbody>
+                <tr>
+                  <td><svg><use xlink:href="dist/icons.svg#arrows"></use></svg></td>
+                  <td>Pan map</td>
+                </tr>
+                <tr>
+                  <td><kbd>+</kbd></td>
+                  <td>Zoom in</td>
+                </tr>        
+                <tr>
+                  <td><kbd>-</kbd></td>
+                  <td>Zoom out</td>
+                </tr>        
+                <tr>
+                  <td><kbd>0</kbd></td>
+                  <td>Zoom 100%</td>
+                </tr>        
+                <tr>
+                  <td><kbd>Ins</kbd></td>
+                  <td>Center map</td>
+                </tr>
+              </tbody>
+            </table>   
+          </th>
+          <th>
+            <h4>Construction</h4>
+            <table>
+              <tbody>
+                <tr>
+                  <td><kbd>Shift</kbd> <svg><use xlink:href="dist/icons.svg#arrows"></use></svg></td>
+                  <td>Create room in dir</td>
+                </tr>
+                <tr>
+                  <td><kbd>R</kbd></td>
+                  <td>Add room</td>
+                </tr>        
+                <tr>
+                  <td><kbd>N</kbd></td>
+                  <td>Add note</td>
+                </tr>        
+                <tr>
+                  <td><kbd>B</kbd></td>
+                  <td>Add block</td>
+                </tr>        
+                <tr>
+                  <td><kbd>A</kbd></td>
+                  <td>Toggle one-way</td>
+                </tr>
+                <tr>
+                  <td><kbd>V</kbd></td>
+                  <td>Reverse connector</td>
+                </tr>
+                <tr>
+                  <td><kbd>K</kbd></td>
+                  <td>Toggle darkness</td>
+                </tr>
+              </tbody>
+            </table>   
+          </th>          
+        </tr>
+      </tbody>
+    </table>
+ 
+ 
+    `, true);
   }
 
   actionGenerateCode(generator: CodeGenerator, extension: string) {
