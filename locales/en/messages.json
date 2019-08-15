@@ -590,6 +590,9 @@
         "message": "Scenery",
         "description": "Room object editor => Object => Type picker => 'Scenery'"
     },
+    "toast_welcome": {
+        "message": "Welcome to Yggdrasil! To start building your map, click the <b>room icon</b> in the left-hand bar and click anywhere on the map to place your first room."
+    },
     "app_file": {
         "message": "File"
     },

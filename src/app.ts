@@ -3,7 +3,7 @@ import { View } from './views/view.js';
 import { Dispatcher } from './dispatcher.js';
 import { AppEvent, MouseMode, Values } from './enums/enums.js';
 import { Editor } from './editor.js';
-import { Tabs } from './controls/controls.js';
+import { Tabs, IdToast } from './controls/controls.js';
 import { BlockPopup, ConnectorPopup, NotePopup, RoomPopup } from './popups/popups.js';
 import { BlockPanel, ConnectorPanel, RenderPanel, MapPanel, MenuPanel, NotePanel, RoomPanel, ToolPanel } from './panels/panels.js';
 import { MapJSON } from './io/mapJSON.js';
@@ -69,6 +69,9 @@ export class App {
     new ConnectorPopup();
 
     this.menuPanel = new MenuPanel();
+
+    let toast = new IdToast('#toast');
+    toast.setText(App.i18n.getMessage("toast_welcome"));
   }
 
   static pushUndo() {
