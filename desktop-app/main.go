@@ -18,6 +18,13 @@ var (
 )
 
 func main() {
+	// Shortcuts
+	newAccel := astilectron.NewAccelerator("ctrl+n")
+	openAccel := astilectron.NewAccelerator("ctrl+o")
+	saveAccel := astilectron.NewAccelerator("ctrl+s")
+	quitAccel := astilectron.NewAccelerator("ctrl+q")
+	importAccel := astilectron.NewAccelerator("ctrl+shift+o")
+
 	// Init
 	flag.Parse()
 	astilog.FlagInit()
@@ -37,7 +44,8 @@ func main() {
 			Label: astilectron.PtrStr("File"),
 			SubMenu: []*astilectron.MenuItemOptions{
 				{
-					Label: astilectron.PtrStr("New Map"),
+					Label:       astilectron.PtrStr("New Map"),
+					Accelerator: newAccel,
 					OnClick: func(e astilectron.Event) (deleteListener bool) {
 						if err := bootstrap.SendMessage(w, "new_map", nil); err != nil {
 							astilog.Error(errors.Wrap(err, "sending new_map event failed"))
@@ -47,7 +55,8 @@ func main() {
 				},
 				{Type: astilectron.MenuItemTypeSeparator},
 				{
-					Label: astilectron.PtrStr("Open Map"),
+					Label:       astilectron.PtrStr("Open Map"),
+					Accelerator: openAccel,
 					OnClick: func(e astilectron.Event) (deleteListener bool) {
 						if err := bootstrap.SendMessage(w, "open_map", "yggdrasil"); err != nil {
 							astilog.Error(errors.Wrap(err, "sending open_map event failed"))
@@ -56,7 +65,8 @@ func main() {
 					},
 				},
 				{
-					Label: astilectron.PtrStr("Open Trizbort Map"),
+					Label:       astilectron.PtrStr("Open Trizbort Map"),
+					Accelerator: importAccel,
 					OnClick: func(e astilectron.Event) (deleteListener bool) {
 						if err := bootstrap.SendMessage(w, "open_map", "trizbort"); err != nil {
 							astilog.Error(errors.Wrap(err, "sending open_map event failed"))
@@ -66,7 +76,8 @@ func main() {
 				},
 				{Type: astilectron.MenuItemTypeSeparator},
 				{
-					Label: astilectron.PtrStr("Save As"),
+					Label:       astilectron.PtrStr("Save As"),
+					Accelerator: saveAccel,
 					OnClick: func(e astilectron.Event) (deleteListener bool) {
 						if err := bootstrap.SendMessage(w, "save_map", nil); err != nil {
 							astilog.Error(errors.Wrap(err, "sending save_map event failed"))
@@ -144,7 +155,17 @@ func main() {
 					},
 				},
 				{Type: astilectron.MenuItemTypeSeparator},
-				{Role: astilectron.MenuItemRoleClose},
+				{Type: astilectron.MenuItemTypeSeparator},
+				{
+					Label:       astilectron.PtrStr("Exit"),
+					Accelerator: quitAccel,
+					OnClick: func(e astilectron.Event) (deleteListener bool) {
+						if err := bootstrap.SendMessage(w, "prompt_quit", nil); err != nil {
+							astilog.Error(errors.Wrap(err, "sending prompt_quit event failed"))
+						}
+						return false
+					},
+				},
 			},
 		},
 			{

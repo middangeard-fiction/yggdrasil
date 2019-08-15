@@ -32,10 +32,22 @@ export class Desktop {
     );
   }
 
+  static promptQuit() {
+    new Window('Exit Yggdrasil', 'You will lose any unsaved progress. Proceed?', () => {
+    // OK
+    astilectron.sendMessage({ name: "quit" });
+    }, () => {
+    // Cancel
+    });
+    }
+
   static initialize() {
     // Listen for incoming Astilectron messages.
     astilectron.onMessage(function (message: any) {
       switch (message.name) {
+        case "prompt_quit":
+          Desktop.promptQuit();
+          break;
         case "new_map":
           App.menuPanel.actionNewMap();
           break;
