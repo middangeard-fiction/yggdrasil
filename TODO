@@ -17,19 +17,16 @@
           ✔ Quest @started(19-08-11 19:03) @done(19-08-11 19:21) @lasted(18m47s)
       ✔ Settings (map & render) @done(19-08-11 17:50)
   General:
-    ☐ Middangeard 1 exporter
+    ✔ Middangeard 1 exporter @done(19-08-17 15:56)
       ✔ Basic game structure @done(19-08-11 17:51)
-      ☐ Rooms
+      ✔ Rooms @done(19-08-17 15:56)
         ✔ Descriptions @done(19-08-11 17:50)
         ✔ Directions @done(19-08-11 17:51)
-        ☐ Items
-      ☐ Items
+        ✔ Items @done(19-08-17 15:56)
+      ✔ Items @done(19-08-17 15:56)
    
-    ☐ Extended Map Settings
+    ✔ Extended Map Settings @done(19-08-17 21:52)
       ✔ Map version field @done(19-08-11 17:49)
-      ☐ Player character tab
-        ☐ Name
-        ☐ Description
 
   Bugs:
     ✔ On cancel, prompts retain their context. I e if the user cancels the "Exit" prompt and then confirms a "New Map" prompt, the app exits instead of opening an empty map. @done(19-08-12 18:49)
@@ -44,6 +41,14 @@
     ☐ Localize general UI
 
 Bugs:
+
+
+Untriaged:
+  General:
+    ☐ Extended Map Settings
+      ☐ Player character tab
+        ☐ Name
+        ☐ Description
 
 Optimizations:
   ☐ Change Window to singleton (https://medium.com/javascript-everyday/singleton-made-easy-with-typescript-6ad55a7ba7ff) 
