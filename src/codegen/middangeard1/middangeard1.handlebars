@@ -6,6 +6,15 @@ import (
 
 var game mid.Game
 
+// Items
+var (
+{{#each map.rooms}}
+	{{#each this.objects}}
+	{{{className this.name}}} mid.Item
+	{{/each}}
+{{/each}}
+)
+
 func main() {
 	game.NewGame(mid.Display.Console)
 }
@@ -24,6 +33,17 @@ func init() {
 		Score:       0,
 	}
 
+	game.Items = map[*mid.Item]*mid.Item{
+	{{#each map.rooms}}
+		{{#each this.objects}}
+		&{{{className this.name}}}: {
+			Name: 		 "{{{this.name}}}",
+			Description: `{{{this.description}}}`,
+		},
+		{{/each}}
+	{{/each}}
+	}
+
 	game.Rooms = map[string]*mid.Room{
     {{#each map.rooms}}
 		"{{className this.name}}": {
@@ -34,6 +54,11 @@ func init() {
         {{#each this.connections}}
                 {{ dirToStr this.startDir }}: "{{{className this.room.name}}}",
           {{/each}}
+			},
+			Items: mid.Items{
+				{{#each this.objects}}
+				game.Items[&{{{className this.name}}}],
+				{{/each}}
 			},
 		},
     {{/each}}
