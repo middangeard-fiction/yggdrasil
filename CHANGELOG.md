@@ -2,6 +2,42 @@
 
 All notable changes to "Yggdrasil" will be documented in this file.
 
+## [0.2.0] - 2019-08-17
+
+#### Added
+* Middangeard 1 Exporter
+  * Author, Title, Description/Intro, 
+    Rooms, Directions and Items only.
+  * No item attributes/synonyms/articles/containers (yet).
+
+#### Changed
+* Revised exported direction scheme
+  * Changed in-between directions to closest cardinal directions,
+    mirroring [Trizbort 1.5.8+](http://www.trizbort.com/Docs/index.shtml#help_conn_ports).
+* Map Settings
+  * Added ``Map version`` field.
+
+
+#### Fixed
+  * [Map export yields blank image when there is no room present in the center of the map.](https://github.com/henck/trizbort/issues/1)
+  * [Trizbort importer inoperable beyond first (successful) import.](https://github.com/henck/trizbort/issues/27)
+  * Polluted dialog state
+    * When cancelling a dialog, the state of it would previously be retained.
+      <br/> Upon confirming the next dialog, the action of the previous dialog
+      would also be called. 
+        * I. e. cancelling a "New Map dialog" and applying a map theme would
+        simultaneously reset the map.
+
+### *Desktop App*
+
+#### Added
+* Prior to exiting the application, the user is now prompted that all unsaved data will be lost.
+* New menu bar options.
+
+![](changes/0.2.0/file.png)
+
+![](changes/0.2.0/settings.PNG)
+
 ## [0.1.0] - 2019-08-09
 
 #### Added
