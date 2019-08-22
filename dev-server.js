@@ -2,6 +2,8 @@
 const express = require('express');
 const app = express();
 
+app.use(express.static("./"));
+
 app.get('/dist/:name', function (req, res) {
     res.sendFile(req.params.name, { root: __dirname + "/dist/" });
 });
