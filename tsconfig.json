@@ -8,6 +8,11 @@
     "experimentalDecorators": true,  // Decorators are included but not currently used
     "target": "es5",
     "module": "system",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "moduleResolution": "node",
     "rootDir": "./src",              // Source TypeScript files
     "outFile": "./dist/app.js"       // App is built as a single big file
