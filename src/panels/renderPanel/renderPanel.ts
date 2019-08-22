@@ -65,6 +65,7 @@ export class RenderPanel extends Panel implements Subscriber {
   
   constructor() {
     super('renderpanel', Handlebars.templates.renderPanel, { });
+
     Dispatcher.subscribe(this);
 
     this.ctrlGridVisible = new IdCheck('.js-grid-visible', this.elem).addEventListener('input', () => { App.map.settings.grid.visible = this.ctrlGridVisible.checked; })
@@ -203,7 +204,7 @@ export class RenderPanel extends Panel implements Subscriber {
   }
 
   applyTheme(theme: string) {
-    new Window('Apply theme', 'Applying a new theme will overwrite all render settings. Proceed?', () => {
+    new Window(App.i18n.getMessage("apply_theme_title"), App.i18n.getMessage("apply_theme_text"), () => {
       // OK
       switch(theme) {
         case 'obsidian':

@@ -1,8 +1,71 @@
 {
+    "ok_button": {
+        "message": "OK"
+    },
+    "cancel_button": {
+        "message": "Cancel"
+    },
     "new_map_title": {
         "message": "New map"
     },
     "new_map_text": {
+        "message": "This will erase all editor contents. Proceed?"
+    },
+    "load_map_title": {
+        "message": "Load map"
+    },
+    "import_map_title": {
+        "message": "Import Trizbort map"
+    },
+    "save_map_title": {
+        "message": "Save map"
+    },
+    "save_image_title": {
+        "message": "Export as image"
+    },
+    "map_settings_title": {
+        "message": "Map settings"
+    },
+    "render_settings_title": {
+        "message": "Render settings"
+    },
+    "export_map_title": {
+        "message": "Export"
+    },
+    "apply_theme_title": {
+        "message": "Apply theme"
+    },
+    "apply_theme_text": {
+        "message": "Applying a new theme will overwrite all render settings. Proceed?"
+    },
+    "app_file": {
+        "message": "File"
+    },
+    "app_file_quit": {
+        "message": "Exit"
+    },
+    "app_edit": {
+        "message": "Edit"
+    },
+    "app_maps": {
+        "message": "Maps"
+    },
+    "app_settings": {
+        "message": "Settings"
+    },
+    "app_help": {
+        "message": "Help"
+    },
+    "app_quit_title": {
+        "message": "Exit Yggdrasil"
+    },
+    "app_quit_text": {
+        "message": "You will lose any unsaved progress. Proceed?"
+    },
+    "app_load_map_title": {
+        "message": "Load sample map"
+    },
+    "app_load_map_text": {
         "message": "This will erase all editor contents. Proceed?"
     }
 }

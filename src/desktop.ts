@@ -33,7 +33,7 @@ export class Desktop {
   }
 
   static promptQuit() {
-    new Window('Exit Yggdrasil', 'You will lose any unsaved progress. Proceed?', () => {
+    new Window(App.i18n.getMessage("app_quit_title"), App.i18n.getMessage("app_quit_text"), () => {
     // OK
     astilectron.sendMessage({ name: "quit" });
     }, () => {

@@ -1,3 +1,5 @@
+import { App } from "../app";
+
 //
 // Window class.
 //
@@ -24,6 +26,8 @@ export class Window {
     this.elem = document.getElementById('window');
     this.elem.querySelector('.title').innerHTML = title;
     this.elem.querySelector('.content').innerHTML = content;
+    this.elem.querySelector('.ok').innerHTML = App.i18n.getMessage("ok_button")
+    this.elem.querySelector('.cancel').innerHTML = App.i18n.getMessage("cancel_button")
     this.onOK = onOK;
     this.onCancel = onCancel;
 

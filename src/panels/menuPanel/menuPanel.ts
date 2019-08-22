@@ -67,7 +67,7 @@ export class MenuPanel extends Panel {
   }
 
   actionNewMap() {
-    new Window('New map', 'This will erase all editor contents. Proceed?', () => {
+    new Window(App.i18n.getMessage("new_map_title"), App.i18n.getMessage("new_map_text"), () => {
       // OK
       App.map = new Map();
       Dispatcher.notify(AppEvent.Load, null);
