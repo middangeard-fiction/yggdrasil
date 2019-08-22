@@ -9,6 +9,8 @@ import { BlockPanel, ConnectorPanel, RenderPanel, MapPanel, MenuPanel, NotePanel
 import { MapJSON } from './io/mapJSON.js';
 import { Selection } from './selection.js';
 import { Desktop } from './desktop.js';
+import { Rosetta } from './rosetta/rosetta';
+import i18nConfig from './config/i18n';
 
 export class App {
   // - App holds the current map.
@@ -23,16 +25,28 @@ export class App {
   static centerY: number = 0;
   static mouseMode: MouseMode = MouseMode.None;
   static undoStack: Array<string> = new Array<string>();
-  static selection: Selection; 
+  static selection: Selection;
+  static i18n: Rosetta = new Rosetta();
 
   static initialize() {
+    const { supportedLocales, fallbackLocale } = i18nConfig;
+
     App.canvas = document.getElementById('canvas');
     App.selection = new Selection();
-    
-    // Intialize GUI components:
-    App.createComponents();
 
-    Tabs.initialize();
+    // Intialize GUI components:
+    this.i18n
+    .init({
+      supportedLocales: Object.keys(supportedLocales),
+      locale: this.getParameterByName("lang"),
+      fallbackLocale
+    })
+    .then((locale) => {
+      Handlebars.registerHelper('i18n', (key: string) => { return App.i18n.getMessage(key); });
+      App.createComponents();
+
+      Tabs.initialize();
+    })
 
     document.addEventListener('astilectron-ready', function () {
       Desktop.initialize();
@@ -55,20 +69,30 @@ export class App {
     new ConnectorPopup();
 
     this.menuPanel = new MenuPanel();
-  }  
+  }
 
   static pushUndo() {
     this.undoStack.push(MapJSON.save(this.map));
-    if(this.undoStack.length > 100) {
+    if (this.undoStack.length > 100) {
       this.undoStack.shift();
     }
   }
 
   static undo() {
-    if(this.undoStack.length == 0) return;
+    if (this.undoStack.length == 0) return;
     let json = this.undoStack.pop();
     this.map = MapJSON.load(json);
     Dispatcher.notify(AppEvent.Refresh, null);
+  }
+
+  static getParameterByName(name: string) {
+    let url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    let regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
+    let results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
   }
 }
 

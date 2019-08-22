@@ -7,6 +7,7 @@ import (
 	"github.com/asticode/go-astilectron-bootstrap"
 	"github.com/asticode/go-astilog"
 	"github.com/pkg/errors"
+	i18n "github.com/middangeard-fiction/rosetta-go"
 )
 
 var (
@@ -280,7 +281,7 @@ func main() {
 		},
 		RestoreAssets: RestoreAssets,
 		Windows: []*bootstrap.Window{{
-			Homepage:       "index.html",
+			Homepage:       "index.html?lang=" + i18n.GetUILanguage(),
 			MessageHandler: handleMessages,
 			Options: &astilectron.WindowOptions{
 				BackgroundColor: astilectron.PtrStr("#5cc070"),

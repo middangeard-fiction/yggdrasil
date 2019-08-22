@@ -84,7 +84,7 @@ export class Rosetta {
   }
 
   getMessage(key: string): string {
-    return _translations[key].message || key;
+    return (_translations[key]) ? _translations[key].message : key;
   }
 
   private loadAndSet(locale: string): Promise<void> {

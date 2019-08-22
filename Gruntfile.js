@@ -62,7 +62,7 @@ module.exports = function(grunt) {
       main: {
         files: [
           // includes files within path
-          {src: ['index.html', 'style.css', 'dist/**'], dest: 'desktop-app/resources/app/', filter: 'isFile'},
+          {src: ['index.html', 'style.css', 'dist/**', 'locales/**'], dest: 'desktop-app/resources/app/', filter: 'isFile'},
         ],
       },
     },
