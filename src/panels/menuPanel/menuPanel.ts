@@ -111,8 +111,8 @@ export class MenuPanel extends Panel {
     }
     catch {
       new Window(
-        'Map loading error', 
-        'Unfortunately, an error occurred and map loading could not proceed. Perhaps the map file is in the wrong format?',
+        App.i18n.getMessage("error_load_map_title"),
+        App.i18n.getMessage("error_load_map_text"),
         true,
         false);
       return;
@@ -129,8 +129,8 @@ export class MenuPanel extends Panel {
     }
     catch {
       new Window(
-        'Map import error', 
-        'Unfortunately, an error occurred and map import could not proceed. Perhaps the map file is in the wrong format?',
+        App.i18n.getMessage("error_import_map_title"),
+        App.i18n.getMessage("error_import_map_text"),
         true,
         false);
       return;      

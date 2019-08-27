@@ -105,7 +105,7 @@ export class Desktop {
           break;
         // load_map loads a predefined map by name.
         case "load_map":
-          new Window('Load sample map', 'This will erase all editor contents. Proceed?', () => {
+          new Window(App.i18n.getMessage("app_load_map_title"), App.i18n.getMessage("app_load_map_text"), () => {
             // OK
             document.location.href = `index.html?map=${message.payload}`;
             Dispatcher.notify(AppEvent.Load, null);

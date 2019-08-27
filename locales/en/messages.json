@@ -14,8 +14,24 @@
     "load_map_title": {
         "message": "Load map"
     },
+    "error_load_map_title": {
+        "message": "Map loading error",
+        "description": "Title of map load error message"
+    },
+    "error_load_map_text": {
+        "message": "Unfortunately, an error occurred and map loading could not proceed. Perhaps the map file is in the wrong format?",
+        "description": "Body of map load error message"
+    },
     "import_map_title": {
         "message": "Import Trizbort map"
+    },
+    "error_import_map_title": {
+        "message": "Map import error",
+        "description": "Title of map import error message"
+    },
+    "error_import_map_text": {
+        "message": "Unfortunately, an error occurred and map import could not proceed. Perhaps the map file is in the wrong format?",
+        "description": "Body of map import error message"
     },
     "save_map_title": {
         "message": "Save map"
@@ -38,8 +54,84 @@
     "apply_theme_text": {
         "message": "Applying a new theme will overwrite all render settings. Proceed?"
     },
+    "panel_note_title": {
+        "message": "Note",
+        "description": "Note panel headline"
+    },
+    "panel_note_tab_info": {
+        "message": "Info",
+        "description": "Note panel 'Info' tab title"
+    },
+    "panel_note_tab_info_shape": {
+        "message": "Note shape",
+        "description": "Note panel 'Info' tab => 'Note shape' picker"
+    },
+    "panel_note_tab_info_rounding": {
+        "message": "Rectangle rounding",
+        "description": "Note panel 'Info' tab => 'Rectangle rounding' slider"
+    },
+    "panel_note_tab_info_text": {
+        "message": "Note text",
+        "description": "Note panel 'Info' tab => 'Note text' textarea"
+    },
+    "panel_note_tab_style": {
+        "message": "Style",
+        "description": "Note panel 'Style' tab title"
+    },
+    "panel_note_tab_style_border": {
+        "message": "Border style",
+        "description": "Note panel 'Style' tab => 'Border style' picker"
+    },
+    "panel_note_tab_style_colors": {
+        "message": "Colors",
+        "description": "Note panel 'Style' tab => 'Colors' picker"
+    },
+    "panel_note_tab_style_colors_fill": {
+        "message": "Note fill",
+        "description": "Note panel 'Style' tab => 'Colors' picker => Fill"
+    },
+    "panel_note_tab_style_colors_border": {
+        "message": "Note border",
+        "description": "Note panel 'Style' tab => 'Colors' picker => Border"
+    },
+    "panel_note_tab_style_colors_text": {
+        "message": "Note text",
+        "description": "Note panel 'Style' tab => 'Colors' picker => Text"
+    },
+    "control_color_picker_recent": {
+        "message": "Recent colors",
+        "description": "Color picker => 'Recent colors'"
+    },
+    "control_color_picker_standard": {
+        "message": "Standard colors",
+        "description": "Color picker => 'Standard colors'"
+    },
     "app_file": {
         "message": "File"
+    },
+    "app_file_new": {
+        "message": "New Map",
+        "description": "File menu entry 'New Map'"
+    },
+    "app_file_open": {
+        "message": "Open Map",
+        "description": "File menu entry 'Open Map'"
+    },
+    "app_file_import": {
+        "message": "Open Trizbort Map",
+        "description": "File menu entry 'Open Trizbort Map'"
+    },
+    "app_file_save": {
+        "message": "Save As",
+        "description": "File menu entry 'Save As'"
+    },
+    "app_file_image": {
+        "message": "Save As Image",
+        "description": "File menu entry 'Save As Image'"
+    },
+    "app_file_export": {
+        "message": "Export",
+        "description": "File menu submenu 'Export'"
     },
     "app_file_quit": {
         "message": "Exit"
@@ -53,8 +145,24 @@
     "app_settings": {
         "message": "Settings"
     },
+    "app_settings_map": {
+        "message": "Map Settings",
+        "description": "Settings menu entry 'Map Settings'"
+    },
+    "app_settings_render": {
+        "message": "Render Settings",
+        "description": "Settings menu entry 'Render Settings'"
+    },
     "app_help": {
         "message": "Help"
+    },
+    "app_help_about": {
+        "message": "About",
+        "description": "Help menu entry 'About'"
+    },
+    "app_help_changelog": {
+        "message": "Changelog",
+        "description": "Help menu entry 'Changelog'"
     },
     "app_quit_title": {
         "message": "Exit Yggdrasil"
