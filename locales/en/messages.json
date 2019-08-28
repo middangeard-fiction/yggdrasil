@@ -5,6 +5,38 @@
     "cancel_button": {
         "message": "Cancel"
     },
+    "element_move_front": {
+        "message": "Bring to Front",
+        "description": "Any element popup => 'Position' icon => 'Bring to Front'"
+    },
+    "element_move_forward": {
+        "message": "Bring Forward",
+        "description": "Any element popup => 'Position' icon => 'Bring Forward'"
+    },
+    "element_move_backward": {
+        "message": "Send Backward",
+        "description": "Any element popup => 'Position' icon => 'Send Backward'"
+    },
+    "element_move_back": {
+        "message": "Send to Back",
+        "description": "Any element popup => 'Position' icon => 'Send to Back'"
+    },
+    "popup_note_details_note": {
+        "message": "Text",
+        "description": "Note popup => 'Details' icon => 'Text' textarea"
+    },
+    "popup_room_details_name": {
+        "message": "Name",
+        "description": "Room popup => 'Details' icon => 'Name' input"
+    },
+    "popup_room_details_subtitle": {
+        "message": "Subtitle",
+        "description": "Room popup => 'Details' icon => 'Subtitle' input"
+    },
+    "popup_connector_details_name": {
+        "message": "Name",
+        "description": "Connector popup => 'Details' icon => 'Name' input"
+    },
     "new_map_title": {
         "message": "New map"
     },
@@ -42,6 +74,26 @@
     "map_settings_title": {
         "message": "Map settings"
     },
+    "map_settings_tab_info": {
+        "message": "Info",
+        "description": "Map settings 'Info' tab title"
+    },
+    "map_settings_tab_info_name": {
+        "message": "Map title",
+        "description": "Map settings 'Info' tab => 'Map title' input"
+    },
+    "map_settings_tab_info_author": {
+        "message": "Map author",
+        "description": "Map settings 'Info' tab => 'Map author' input"
+    },
+    "map_settings_tab_info_version": {
+        "message": "Map version",
+        "description": "Map settings 'Info' tab => 'Map version' input"
+    },
+    "map_settings_tab_info_description": {
+        "message": "Description",
+        "description": "Map settings 'Info' tab => 'Description' textarea"
+    },
     "render_settings_title": {
         "message": "Render settings"
     },
@@ -53,6 +105,58 @@
     },
     "apply_theme_text": {
         "message": "Applying a new theme will overwrite all render settings. Proceed?"
+    },
+    "panel_tool_cursor_hint": {
+        "message": "Cursor",
+        "description": "Tool panel => Cursor icon hint"
+    },
+    "panel_tool_room_hint": {
+        "message": "Add room (R)",
+        "description": "Tool panel => Room icon hint"
+    },
+    "panel_tool_note_hint": {
+        "message": "Add note (N)",
+        "description": "Tool panel => Note icon hint"
+    },
+    "panel_tool_block_hint": {
+        "message": "Add block (B)",
+        "description": "Tool panel => Block icon hint"
+    },
+    "panel_block_title": {
+        "message": "Block",
+        "description": "Block panel headline"
+    },
+    "panel_block_tab_info": {
+        "message": "Info",
+        "description": "Block panel 'Info' tab title"
+    },
+    "panel_block_tab_info_shape": {
+        "message": "Block shape",
+        "description": "Block panel 'Info' tab => 'Block shape' picker"
+    },
+    "panel_block_tab_info_rounding": {
+        "message": "Rectangle rounding",
+        "description": "Block panel 'Info' tab => 'Rectangle rounding' slider"
+    },
+    "panel_block_tab_style": {
+        "message": "Style",
+        "description": "Block panel 'Style' tab title"
+    },
+    "panel_block_tab_style_border": {
+        "message": "Border style",
+        "description": "Block panel 'Style' tab => 'Border style' picker"
+    },
+    "panel_block_tab_style_colors": {
+        "message": "Colors",
+        "description": "Block panel 'Style' tab => 'Colors' picker"
+    },
+    "panel_block_tab_style_colors_fill": {
+        "message": "Block fill",
+        "description": "Block panel 'Style' tab => 'Colors' picker => Fill"
+    },
+    "panel_block_tab_style_colors_border": {
+        "message": "Block border",
+        "description": "Block panel 'Style' tab => 'Colors' picker => Border"
     },
     "panel_note_title": {
         "message": "Note",
@@ -98,6 +202,82 @@
         "message": "Note text",
         "description": "Note panel 'Style' tab => 'Colors' picker => Text"
     },
+    "panel_room_title": {
+        "message": "Room",
+        "description": "Room panel headline"
+    },
+    "panel_room_tab_info": {
+        "message": "Info",
+        "description": "Room panel 'Info' tab title"
+    },
+    "panel_room_tab_info_name": {
+        "message": "Room name",
+        "description": "Room panel 'Info' tab => 'Room name' input"
+    },
+    "panel_room_tab_info_subtitle": {
+        "message": "Room subtitle",
+        "description": "Room panel 'Info' tab => 'Room subtitle' input"
+    },
+    "panel_room_tab_info_dark": {
+        "message": "Dark",
+        "description": "Room panel 'Info' tab => 'Dark' checkbox"
+    },
+    "panel_room_tab_info_start": {
+        "message": "Start room",
+        "description": "Room panel 'Info' tab => 'Start room' checkbox"
+    },
+    "panel_room_tab_info_end": {
+        "message": "End room",
+        "description": "Room panel 'Info' tab => 'End room' checkbox"
+    },
+    "panel_room_tab_info_shape": {
+        "message": "Room shape",
+        "description": "Room panel 'Info' tab => 'Room shape' picker"
+    },
+    "panel_room_tab_info_rounding": {
+        "message": "Rectangle rounding",
+        "description": "Room panel 'Info' tab => 'Rectangle rounding' slider"
+    },
+    "panel_room_tab_info_description": {
+        "message": "Room description",
+        "description": "Room panel 'Info' tab => 'Room description' textarea"
+    },
+    "panel_room_tab_objects": {
+        "message": "Objects",
+        "description": "Room panel 'Objects' tab title"
+    },
+    "panel_room_tab_objects_add_button": {
+        "message": "Add object",
+        "description": "Room panel 'Objects' tab => 'Add object' button"
+    },
+    "panel_room_tab_style": {
+        "message": "Style",
+        "description": "Room panel 'Style' tab title"
+    },
+    "panel_room_tab_style_border": {
+        "message": "Border style",
+        "description": "Room panel 'Style' tab => 'Border style' picker"
+    },
+    "panel_room_tab_style_colors": {
+        "message": "Colors",
+        "description": "Room panel 'Style' tab => 'Colors' picker"
+    },
+    "panel_room_tab_style_colors_fill": {
+        "message": "Room fill",
+        "description": "Room panel 'Style' tab => 'Colors' picker => Fill"
+    },
+    "panel_room_tab_style_colors_border": {
+        "message": "Room border",
+        "description": "Room panel 'Style' tab => 'Colors' picker => Border"
+    },
+    "panel_room_tab_style_colors_name": {
+        "message": "Room name",
+        "description": "Room panel 'Style' tab => 'Colors' picker => Name"
+    },
+    "panel_room_tab_style_colors_subtitle": {
+        "message": "Room subtitle",
+        "description": "Room panel 'Style' tab => 'Colors' picker => Subtitle"
+    },
     "control_color_picker_recent": {
         "message": "Recent colors",
         "description": "Color picker => 'Recent colors'"
@@ -105,6 +285,46 @@
     "control_color_picker_standard": {
         "message": "Standard colors",
         "description": "Color picker => 'Standard colors'"
+    },
+    "control_connector_picker_default": {
+        "message": "Default",
+        "description": "Connector Type picker => 'Default'"
+    },
+    "control_connector_picker_in": {
+        "message": "In",
+        "description": "Connector Type picker => 'In'"
+    },
+    "control_connector_picker_out": {
+        "message": "Out",
+        "description": "Connector Type picker => 'Out'"
+    },
+    "control_connector_picker_up": {
+        "message": "Up",
+        "description": "Connector Type picker => 'Up'"
+    },
+    "control_connector_picker_down": {
+        "message": "Down",
+        "description": "Connector Type picker => 'Down'"
+    },
+    "control_object_editor_name": {
+        "message": "Name",
+        "description": "Room object editor => Object => 'Name'"
+    },
+    "control_object_editor_description": {
+        "message": "Description",
+        "description": "Room object editor => Object => 'Description'"
+    },
+    "control_object_editor_type_actor": {
+        "message": "Actor",
+        "description": "Room object editor => Object => Type picker => 'Actor'"
+    },
+    "control_object_editor_type_item": {
+        "message": "Item",
+        "description": "Room object editor => Object => Type picker => 'Item'"
+    },
+    "control_object_editor_type_scenery": {
+        "message": "Scenery",
+        "description": "Room object editor => Object => Type picker => 'Scenery'"
     },
     "app_file": {
         "message": "File"

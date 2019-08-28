@@ -1,27 +1,27 @@
 {{> closePanel}}
 
-<h2>Block</h2>
+<h2>{{{i18n "panel_block_title"}}}</h2>
 
 <div class="tabs">
-  <div class="tab selected" data-body="tab-block-info">Info</div>
-  <div class="tab" data-body="tab-block-style">Style</div>
+  <div class="tab selected" data-body="tab-block-info">{{{i18n "panel_block_tab_info"}}}</div>
+  <div class="tab" data-body="tab-block-style">{{{i18n "panel_block_tab_style"}}}</div>
 </div>
 
 <div class="tab-body" id="tab-block-info">
-  <id-shape class="js-shape" data-label="Block shape"></id-shape>  
-  <id-range class="js-rounding" data-min="0" data-max="100" data-label="Rectangle rounding"></id-range>
+  <id-shape class="js-shape" data-label="{{{i18n "panel_block_tab_info_shape"}}}"></id-shape>
+  <id-range class="js-rounding" data-min="0" data-max="100" data-label="{{{i18n "panel_block_tab_info_rounding"}}}"></id-range>
 </div>
 
 <div class="tab-body" id="tab-block-style">
-  <id-linestyle class="js-linestyle" data-none="true" data-label="Border style"></id-linestyle>
+  <id-linestyle class="js-linestyle" data-none="true" data-label="{{{i18n "panel_block_tab_style_border"}}}"></id-linestyle>
   <id-range class="js-linewidth" data-min="1" data-max="10"></id-range>  
-  <label>Colors</label>
+  <label>{{{i18n "panel_block_tab_style_colors"}}}</label>
   <div style="display: flex">
     <div style="display: flex; flex-direction: column; flex-wrap: wrap">
-      <id-popup title="Block fill" class="colortype selected" data-type="fill">
+      <id-popup title="{{{i18n "panel_block_tab_style_colors_fill"}}}" class="colortype selected" data-type="fill">
         <svg class="icon"><use xlink:href="dist/icons.svg#block-fill"></use></svg>
       </id-popup>
-      <id-popup title="Block border" class="colortype" data-type="border">
+      <id-popup title="{{{i18n "panel_block_tab_style_colors_border"}}}" class="colortype" data-type="border">
         <svg class="icon"><use xlink:href="dist/icons.svg#block-border"></use></svg>
       </id-popup>
     </div>
