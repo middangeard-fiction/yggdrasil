@@ -1,0 +1,179 @@
+{
+    "ok_button": {
+        "message": "OK"
+    },
+    "cancel_button": {
+        "message": "Annuler"
+    },
+    "new_map_title": {
+        "message": "Nouvelle carte"
+    },
+    "new_map_text": {
+        "message": "Cela va écraser tout le contenu de l'éditeur. Continuer ?"
+    },
+    "load_map_title": {
+        "message": "Charger une carte"
+    },
+    "error_load_map_title": {
+        "message": "Erreur de chargement de la carte",
+        "description": "Title of map load error message"
+    },
+    "error_load_map_text": {
+        "message": "Une erreur est survenue et la carte n'a pas pu être chargée correctement. Vérifier que vous avez le bon format pour la carte.",
+        "description": "Body of map load error message"
+    },
+    "import_map_title": {
+        "message": "Importer une carte Trizbort"
+    },
+    "error_import_map_title": {
+        "message": "Erreur lors de l'importation de la carte",
+        "description": "Title of map import error message"
+    },
+    "error_import_map_text": {
+        "message": "Une erreur est survenue et la carte n'a pas pu être importée correctement. Vérifier que vous avez le bon format pour la carte.",
+        "description": "Body of map import error message"
+    },
+    "save_map_title": {
+        "message": "Sauvegarder la carte"
+    },
+    "save_image_title": {
+        "message": "Exporter comme une image"
+    },
+    "map_settings_title": {
+        "message": "Paramètres de la carte"
+    },
+    "render_settings_title": {
+        "message": "Paramètres d'affichage"
+    },
+    "export_map_title": {
+        "message": "Exporter"
+    },
+    "apply_theme_title": {
+        "message": "Appliquer le thème"
+    },
+    "apply_theme_text": {
+        "message": "Attention, appliquer un nouveau thème écrasera tous les paramètres d'affichage. Continuer ?"
+    },
+    "panel_note_title": {
+        "message": "Note",
+        "description": "Note panel headline"
+    },
+    "panel_note_tab_info": {
+        "message": "Info",
+        "description": "Note panel 'Info' tab title"
+    },
+    "panel_note_tab_info_shape": {
+        "message": "Forme de note",
+        "description": "Note panel 'Info' tab => 'Note shape' picker"
+    },
+    "panel_note_tab_info_rounding": {
+        "message": "Rectangle arrondi",
+        "description": "Note panel 'Info' tab => 'Rectangle rounding' slider"
+    },
+    "panel_note_tab_info_text": {
+        "message": "Texte de la note",
+        "description": "Note panel 'Info' tab => 'Note text' textarea"
+    },
+    "panel_note_tab_style": {
+        "message": "Style",
+        "description": "Note panel 'Style' tab title"
+    },
+    "panel_note_tab_style_border": {
+        "message": "Style de la bordure",
+        "description": "Note panel 'Style' tab => 'Border style' picker"
+    },
+    "panel_note_tab_style_colors": {
+        "message": "Couleurs",
+        "description": "Note panel 'Style' tab => 'Colors' picker"
+    },
+    "panel_note_tab_style_colors_fill": {
+        "message": "Remplissage de la note",
+        "description": "Note panel 'Style' tab => 'Colors' picker => Fill"
+    },
+    "panel_note_tab_style_colors_border": {
+        "message": "Bordure de la note",
+        "description": "Note panel 'Style' tab => 'Colors' picker => Border"
+    },
+    "panel_note_tab_style_colors_text": {
+        "message": "Texte de la note",
+        "description": "Note panel 'Style' tab => 'Colors' picker => Text"
+    },
+    "control_color_picker_recent": {
+        "message": "Couleurs récentes",
+        "description": "Color picker => 'Recent colors'"
+    },
+    "control_color_picker_standard": {
+        "message": "Couleurs standards",
+        "description": "Color picker => 'Standard colors'"
+    },
+    "app_file": {
+        "message": "Fichier"
+    },
+    "app_file_new": {
+        "message": "Nouvelle carte",
+        "description": "File menu entry 'New Map'"
+    },
+    "app_file_open": {
+        "message": "Ouvrir une carte",
+        "description": "File menu entry 'Open Map'"
+    },
+    "app_file_import": {
+        "message": "Ouvrir une carte Trizbort",
+        "description": "File menu entry 'Open Trizbort Map'"
+    },
+    "app_file_save": {
+        "message": "Enregistrer sous",
+        "description": "File menu entry 'Save As'"
+    },
+    "app_file_image": {
+        "message": "Enregistrer sous (image)",
+        "description": "File menu entry 'Save As Image'"
+    },
+    "app_file_export": {
+        "message": "Exporter",
+        "description": "File menu submenu 'Export'"
+    },
+    "app_file_quit": {
+        "message": "Sortie"
+    },
+    "app_edit": {
+        "message": "Modifier"
+    },
+    "app_maps": {
+        "message": "Cartes"
+    },
+    "app_settings": {
+        "message": "Paramètres"
+    },
+    "app_settings_map": {
+        "message": "Paramètres de la carte",
+        "description": "Settings menu entry 'Map Settings'"
+    },
+    "app_settings_render": {
+        "message": "Paramètres d'affichage",
+        "description": "Settings menu entry 'Render Settings'"
+    },
+    "app_help": {
+        "message": "Aide"
+    },
+    "app_help_about": {
+        "message": "A propos",
+        "description": "Help menu entry 'About'"
+    },
+    "app_help_changelog": {
+        "message": "Changelog",
+        "description": "Help menu entry 'Changelog'"
+    },
+    "app_quit_title": {
+        "message": "Quitter Yggdrasil"
+    },
+    "app_quit_text": {
+        "message": "Vous allez perdre tout travail non sauvegardé. Continuer ?"
+    },
+    "app_load_map_title": {
+        "message": "Charger une carte d'exemple"
+    },
+    "app_load_map_text": {
+        "message": "Cela va écraser tout le contenu de l'éditeur. Continuer ?"
+    }
+}
