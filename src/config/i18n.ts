@@ -10,6 +10,9 @@ const i18nConfig: I18nConfig = {
   supportedLocales: {
     de: 'Deutsch',
     en: 'English',
+    fr: 'Français',
+    nl: 'Nederlands',
+    pt: 'Português',
   },
 
   fallbackLocale: 'en',
