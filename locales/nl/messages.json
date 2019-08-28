@@ -1,0 +1,179 @@
+{
+    "ok_button": {
+        "message": "OK"
+    },
+    "cancel_button": {
+        "message": "Annuleren"
+    },
+    "new_map_title": {
+        "message": "Nieuwe Kaart"
+    },
+    "new_map_text": {
+        "message": "Hiermee gaat de gehele inhoud van de kaart verloren. Doorgaan?"
+    },
+    "load_map_title": {
+        "message": "Openen"
+    },
+    "error_load_map_title": {
+        "message": "Fout bij lezen kaart",
+        "description": "Title of map load error message"
+    },
+    "error_load_map_text": {
+        "message": "Helaas is er een fout opgetreden bij het lezen en de kaart kon daarom niet worden geladen. Is het kaartbestand in het juiste formaat?",
+        "description": "Body of map load error message"
+    },
+    "import_map_title": {
+        "message": "Trizbort Kaart Importeren"
+    },
+    "error_import_map_title": {
+        "message": "Fout bij importeren kaart",
+        "description": "Title of map import error message"
+    },
+    "error_import_map_text": {
+        "message": "Helaas is er een fout opgetreden bij het lezen en de kaart kon daarom niet worden geïmporteerd. Is het kaartbestand in het juiste formaat?",
+        "description": "Body of map import error message"
+    },
+    "save_map_title": {
+        "message": "Bewaren"
+    },
+    "save_image_title": {
+        "message": "Exporteren als afbeelding"
+    },
+    "map_settings_title": {
+        "message": "Kaartinstellingen"
+    },
+    "render_settings_title": {
+        "message": "Visualisatieinstellingen"
+    },
+    "export_map_title": {
+        "message": "Exporteren"
+    },
+    "apply_theme_title": {
+        "message": "Thema toepassen"
+    },
+    "apply_theme_text": {
+        "message": "Het toepassen van een nieuw thema overschrijft alle afbeeldingsinstellingen. Doorgaan?"
+    },
+    "panel_note_title": {
+        "message": "Noot",
+        "description": "Note panel headline"
+    },
+    "panel_note_tab_info": {
+        "message": "Informatie",
+        "description": "Note panel 'Info' tab title"
+    },
+    "panel_note_tab_info_shape": {
+        "message": "Vorm voor noten",
+        "description": "Note panel 'Info' tab => 'Note shape' picker"
+    },
+    "panel_note_tab_info_rounding": {
+        "message": "Rechthoekafronding",
+        "description": "Note panel 'Info' tab => 'Rectangle rounding' slider"
+    },
+    "panel_note_tab_info_text": {
+        "message": "Tekst in noten",
+        "description": "Note panel 'Info' tab => 'Note text' textarea"
+    },
+    "panel_note_tab_style": {
+        "message": "Stijl",
+        "description": "Note panel 'Style' tab title"
+    },
+    "panel_note_tab_style_border": {
+        "message": "Randstijl",
+        "description": "Note panel 'Style' tab => 'Border style' picker"
+    },
+    "panel_note_tab_style_colors": {
+        "message": "Kleuren",
+        "description": "Note panel 'Style' tab => 'Colors' picker"
+    },
+    "panel_note_tab_style_colors_fill": {
+        "message": "Vulkleur voor noten",
+        "description": "Note panel 'Style' tab => 'Colors' picker => Fill"
+    },
+    "panel_note_tab_style_colors_border": {
+        "message": "Rand voor noten",
+        "description": "Note panel 'Style' tab => 'Colors' picker => Border"
+    },
+    "panel_note_tab_style_colors_text": {
+        "message": "Tekst in noten",
+        "description": "Note panel 'Style' tab => 'Colors' picker => Text"
+    },
+    "control_color_picker_recent": {
+        "message": "Recente kleuren",
+        "description": "Color picker => 'Recent colors'"
+    },
+    "control_color_picker_standard": {
+        "message": "Standaardkleuren",
+        "description": "Color picker => 'Standard colors'"
+    },
+    "app_file": {
+        "message": "Bestand"
+    },
+    "app_file_new": {
+        "message": "Nieuwe Kaart",
+        "description": "File menu entry 'New Map'"
+    },
+    "app_file_open": {
+        "message": "Kaart Openen",
+        "description": "File menu entry 'Open Map'"
+    },
+    "app_file_import": {
+        "message": "Trizbort Kaart Openen",
+        "description": "File menu entry 'Open Trizbort Map'"
+    },
+    "app_file_save": {
+        "message": "Opslaan Als",
+        "description": "File menu entry 'Save As'"
+    },
+    "app_file_image": {
+        "message": "Opslaan Als Afbeelding",
+        "description": "File menu entry 'Save As Image'"
+    },
+    "app_file_export": {
+        "message": "Exporteren",
+        "description": "File menu submenu 'Export'"
+    },
+    "app_file_quit": {
+        "message": "Sluiten"
+    },
+    "app_edit": {
+        "message": "Bewerken"
+    },
+    "app_maps": {
+        "message": "Kaarten"
+    },
+    "app_settings": {
+        "message": "Instellingen"
+    },
+    "app_settings_map": {
+        "message": "Kaartinstellingen",
+        "description": "Settings menu entry 'Map Settings'"
+    },
+    "app_settings_render": {
+        "message": "Visualisatieinstellingen",
+        "description": "Settings menu entry 'Render Settings'"
+    },
+    "app_help": {
+        "message": "Help"
+    },
+    "app_help_about": {
+        "message": "Over Yggdrasil",
+        "description": "Help menu entry 'About'"
+    },
+    "app_help_changelog": {
+        "message": "Aanpassingslogboek",
+        "description": "Help menu entry 'Changelog'"
+    },
+    "app_quit_title": {
+        "message": "Yggdrasil Sluiten"
+    },
+    "app_quit_text": {
+        "message": "Eventuele veranderingen zullen verloren gaan. Doorgaan?"
+    },
+    "app_load_map_title": {
+        "message": "Voorbeeldkaart Laden"
+    },
+    "app_load_map_text": {
+        "message": "Hiermee gaat de gehele inhoud van de kaart verloren. Doorgaan?"
+    }
+}
