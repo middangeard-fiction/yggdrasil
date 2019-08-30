@@ -1,35 +1,35 @@
 {{> closePanel}}
 
-<h2>Connector</h2> 
+<h2>{{{i18n "panel_connector_title"}}}</h2>
 
 <div class="tabs">
-  <div class="tab selected" data-body="tab-connector-info">Info</div>
-  <div class="tab" data-body="tab-connector-style">Style</div>
+  <div class="tab selected" data-body="tab-connector-info">{{{i18n "panel_connector_tab_info"}}}</div>
+  <div class="tab" data-body="tab-connector-style">{{{i18n "panel_connector_tab_style"}}}</div>
 </div>
 
 <div class="tab-body" id="tab-connector-info">
-  <id-input class="js-name" data-label="Connector name"></id-input>
-  <id-check class="js-curve" data-label="Curve"></id-check>
-  <id-check class="js-oneway" data-label="One way"></id-check>
-  <button class="btn-primary js-reverse">Reverse</button>
+  <id-input class="js-name" data-label="{{{i18n "panel_connector_tab_info_name"}}}"></id-input>
+  <id-check class="js-curve" data-label="{{{i18n "panel_connector_tab_info_curve"}}}"></id-check>
+  <id-check class="js-oneway" data-label="{{{i18n "panel_connector_tab_info_uni"}}}"></id-check>
+  <button class="btn-primary js-reverse">{{{i18n "panel_connector_tab_info_reverse"}}}</button>
 
   <div style="display: flex; margin-top: 20px">
     <div style="flex: 1; display: flex; flex-direction: column; padding-right: 10px">
-      <label>Start type</label>
+      <label>{{{i18n "panel_connector_tab_info_start_type"}}}</label>
       <id-connector-type class="js-starttype"></id-connector-type>
-      <id-input style="margin-top:20px" class="js-startlabel" data-label="Start label"></id-input>
+      <id-input style="margin-top:20px" class="js-startlabel" data-label="{{{i18n "panel_connector_tab_info_start_label"}}}"></id-input>
     </div>
     <div style="flex: 1; display: flex; flex-direction: column; padding-left: 10px">
-      <label>End type</label>
+      <label>{{{i18n "panel_connector_tab_info_end_type"}}}</label>
       <id-connector-type class="js-endtype"></id-connector-type>
-      <id-input style="margin-top:20px" class="js-endlabel" data-label="End label"></id-input>
+      <id-input style="margin-top:20px" class="js-endlabel" data-label="{{{i18n "panel_connector_tab_info_end_label"}}}"></id-input>
     </div>
   </div>
 </div>
 
 <div class="tab-body" id="tab-connector-style">
-  <id-linestyle class="js-linestyle" data-label="Line style"></id-linestyle>
+  <id-linestyle class="js-linestyle" data-label="{{{i18n "panel_connector_tab_style_line"}}}"></id-linestyle>
   <id-range class="js-linewidth" data-min="1" data-max="10"></id-range>
-  <label>Line color</label>  
+  <label>{{{i18n "panel_connector_tab_style_color"}}}</label>
   <id-colorpicker class="js-color"></id-colorpicker>
 </div>

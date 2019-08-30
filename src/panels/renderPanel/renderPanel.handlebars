@@ -3,34 +3,34 @@
 <h2>{{{i18n "render_settings_title"}}}</h2>
 
 <div class="tabs"> 
-  <div class="tab selected" data-body="tab-settings-basic">Basic</div>
-  <div class="tab" data-body="tab-settings-rooms">Room</div>
-  <div class="tab" data-body="tab-settings-connectors">Line</div>
-  <div class="tab" data-body="tab-settings-notes">Note</div>
-  <div class="tab" data-body="tab-settings-blocks">Block</div>
+  <div class="tab selected" data-body="tab-settings-basic">{{{i18n "render_settings_tab_basic"}}}</div>
+  <div class="tab" data-body="tab-settings-rooms">{{{i18n "render_settings_tab_room"}}}</div>
+  <div class="tab" data-body="tab-settings-connectors">{{{i18n "render_settings_tab_line"}}}</div>
+  <div class="tab" data-body="tab-settings-notes">{{{i18n "render_settings_tab_note"}}}</div>
+  <div class="tab" data-body="tab-settings-blocks">{{{i18n "render_settings_tab_block"}}}</div>
 </div>
 
 <div class="tab-body" id="tab-settings-basic">
-  <id-check class="js-grid-visible" data-label="Visible"></id-check>
-  <id-check class="js-grid-origin" data-label="Show origin"></id-check>
-  <id-check class="js-grid-snap" data-label="Snap to grid"></id-check>
-  <id-range class="js-grid-size" data-min="16" data-max="128" data-label="Grid size"></id-range>
+  <id-check class="js-grid-visible" data-label="{{{i18n "render_settings_tab_basic_visible"}}}"></id-check>
+  <id-check class="js-grid-origin" data-label="{{{i18n "render_settings_tab_basic_origin"}}}"></id-check>
+  <id-check class="js-grid-snap" data-label="{{{i18n "render_settings_tab_basic_snap"}}}"></id-check>
+  <id-range class="js-grid-size" data-min="16" data-max="128" data-label="{{{i18n "render_settings_tab_basic_size"}}}"></id-range>
 
-  <label>Map colors</label>
+  <label>{{{i18n "render_settings_tab_basic_colors"}}}</label>
   <div style="display: flex">
     <div style="display: flex; flex-direction: column; flex-wrap: wrap">
-      <id-popup title="Map background" class="map-colortype selected" data-type="background">
+      <id-popup title="{{{i18n "render_settings_tab_basic_colors_background"}}}" class="map-colortype selected" data-type="background">
       </id-popup>
-      <id-popup title="Grid" class="map-colortype" data-type="grid">
+      <id-popup title="{{{i18n "render_settings_tab_basic_colors_grid"}}}" class="map-colortype" data-type="grid">
         <svg class="icon"><use xlink:href="dist/icons.svg#grid"></use></svg>
       </id-popup>
     </div>
     <id-colorpicker class="js-map-color"></id-colorpicker>
   </div>  
 
-  <label>Quick themes</label>
+  <label>{{{i18n "render_settings_tab_basic_themes"}}}</label>
   <div class="menuitem">
-    <a href="#" class="js-theme-default"><svg class="icon small"><use xlink:href="dist/icons.svg#paintbrush"></use></svg> Default</a>
+    <a href="#" class="js-theme-default"><svg class="icon small"><use xlink:href="dist/icons.svg#paintbrush"></use></svg> {{{i18n "render_settings_tab_basic_themes_default"}}}</a>
   </div>  
   <div class="menuitem">
     <a href="#" class="js-theme-obsidian"><svg class="icon small"><use xlink:href="dist/icons.svg#paintbrush"></use></svg> Obsidian</a>
@@ -38,36 +38,36 @@
 </div>
 
 <div class="tab-body" id="tab-settings-rooms">
-  <id-range class='js-room-width' data-min="64" data-max="256" data-label="Default room width"></id-range>
-  <id-range class='js-room-height' data-min="64" data-max="256" data-label="Default room height"></id-range>
-  <id-range class='js-room-darkness-size' data-min="50" data-max="100" data-label="Darkness stripe size"></id-range>
-  <id-shape class="js-room-shape" data-label="Default room shape"></id-shape>   
-  <id-range class='js-room-rounding' data-min="0" data-max="30" data-label="Default room rounding"></id-range>
-  <id-linestyle class="js-room-line" data-none="true" data-label="Default room border style"></id-linestyle>
+  <id-range class='js-room-width' data-min="64" data-max="256" data-label="{{{i18n "render_settings_tab_room_width"}}}"></id-range>
+  <id-range class='js-room-height' data-min="64" data-max="256" data-label="{{{i18n "render_settings_tab_room_height"}}}"></id-range>
+  <id-range class='js-room-darkness-size' data-min="50" data-max="100" data-label="{{{i18n "render_settings_tab_room_dark"}}}"></id-range>
+  <id-shape class="js-room-shape" data-label="{{{i18n "render_settings_tab_room_shape"}}}"></id-shape>
+  <id-range class='js-room-rounding' data-min="0" data-max="30" data-label="{{{i18n "render_settings_tab_room_rounding"}}}"></id-range>
+  <id-linestyle class="js-room-line" data-none="true" data-label="{{{i18n "render_settings_tab_room_border"}}}"></id-linestyle>
   <id-range class='js-room-linewidth' data-min="1" data-max="10"></id-range>
 
-  <label>Default room colors</label>
+  <label>{{{i18n "render_settings_tab_room_colors"}}}</label>
   <div style="display: flex">
     <div style="display: flex; flex-direction: column; flex-wrap: wrap">
-      <id-popup title="Room fill" class="room-colortype selected" data-type="fill">
+      <id-popup title="{{{i18n "render_settings_tab_room_colors_fill"}}}" class="room-colortype selected" data-type="fill">
         <svg class="icon"><use xlink:href="dist/icons.svg#room-fill"></use></svg>
       </id-popup>
-      <id-popup title="Room border" class="room-colortype" data-type="border">
+      <id-popup title="{{{i18n "render_settings_tab_room_colors_border"}}}" class="room-colortype" data-type="border">
         <svg class="icon"><use xlink:href="dist/icons.svg#room-border"></use></svg>
       </id-popup>
-      <id-popup title="Room name" class="room-colortype" data-type="name">
+      <id-popup title="{{{i18n "render_settings_tab_room_colors_name"}}}" class="room-colortype" data-type="name">
         <svg class="icon"><use xlink:href="dist/icons.svg#room-name"></use></svg>
       </id-popup>
-      <id-popup title="Room subtitle" class="room-colortype" data-type="subtitle">
+      <id-popup title="{{{i18n "render_settings_tab_room_colors_subtitle"}}}" class="room-colortype" data-type="subtitle">
         <svg class="icon"><use xlink:href="dist/icons.svg#room-subtitle"></use></svg>
       </id-popup>
-      <id-popup title="Darkness stripe" class="room-colortype" data-type="dark">
+      <id-popup title="{{{i18n "render_settings_tab_room_colors_dark"}}}" class="room-colortype" data-type="dark">
         <svg class="icon"><use xlink:href="dist/icons.svg#room-darkness"></use></svg>
       </id-popup>
-      <id-popup title="Start room" class="room-colortype" data-type="start">
+      <id-popup title="{{{i18n "render_settings_tab_room_colors_start"}}}" class="room-colortype" data-type="start">
         <svg class="icon"><use xlink:href="dist/icons.svg#room-start"></use></svg>
       </id-popup>
-      <id-popup title="End room" class="room-colortype" data-type="end">
+      <id-popup title="{{{i18n "render_settings_tab_room_colors_end"}}}" class="room-colortype" data-type="end">
         <svg class="icon"><use xlink:href="dist/icons.svg#room-end"></use></svg>
       </id-popup>                  
     </div>
@@ -76,36 +76,36 @@
 </div>
 
 <div class="tab-body" id="tab-settings-connectors">
-  <id-linestyle class="js-connector-line" data-label="Default connector line style"></id-linestyle>
+  <id-linestyle class="js-connector-line" data-label="{{{i18n "render_settings_tab_line_style"}}}"></id-linestyle>
   <id-range class='js-connector-linewidth' data-min="1" data-max="10"></id-range>  
-  <id-range class='js-connector-stalk' data-min="16" data-max="64" data-label="Default connector stalk length"></id-range>    
-  <id-range class='js-connector-label-distance' data-min="10" data-max="20" data-label="Label distance"></id-range>    
-  <id-range class='js-connector-arrow-size' data-min="3" data-max="10" data-label="One-way arrow size"></id-range>      
-  <id-check class="js-connector-curve" data-label="Use curves"></id-check>
-  <id-range class='js-connector-curve-strength' data-min="1" data-max="8" data-label="Default connector curve strength"></id-range>      
+  <id-range class='js-connector-stalk' data-min="16" data-max="64" data-label="{{{i18n "render_settings_tab_line_length"}}}"></id-range>
+  <id-range class='js-connector-label-distance' data-min="10" data-max="20" data-label="{{{i18n "render_settings_tab_line_distance"}}}"></id-range>
+  <id-range class='js-connector-arrow-size' data-min="3" data-max="10" data-label="{{{i18n "render_settings_tab_line_size"}}}"></id-range>
+  <id-check class="js-connector-curve" data-label="{{{i18n "render_settings_tab_line_curve"}}}"></id-check>
+  <id-range class='js-connector-curve-strength' data-min="1" data-max="8" data-label="{{{i18n "render_settings_tab_line_curve_strength"}}}"></id-range>
 
-  <label>Default connector color</label>
+  <label>{{{i18n "render_settings_tab_line_colors"}}}</label>
   <id-colorpicker class="js-connector-color"></id-colorpicker>
 </div>
 
 <div class="tab-body" id="tab-settings-notes">
-  <id-range class='js-note-width' data-min="64" data-max="256" data-label="Default note width"></id-range>
-  <id-range class='js-note-height' data-min="64" data-max="256" data-label="Default note height"></id-range>
-  <id-shape class="js-note-shape" data-label="Default note shape"></id-shape>   
-  <id-range class='js-note-rounding' data-min="0" data-max="30" data-label="Default note rounding"></id-range>
-  <id-linestyle class="js-note-line" data-none="true" data-label="Default note border style"></id-linestyle>
+  <id-range class='js-note-width' data-min="64" data-max="256" data-label="{{{i18n "render_settings_tab_note_width"}}}"></id-range>
+  <id-range class='js-note-height' data-min="64" data-max="256" data-label="{{{i18n "render_settings_tab_note_height"}}}"></id-range>
+  <id-shape class="js-note-shape" data-label="{{{i18n "render_settings_tab_note_shape"}}}"></id-shape>
+  <id-range class='js-note-rounding' data-min="0" data-max="30" data-label="{{{i18n "render_settings_tab_note_rounding"}}}"></id-range>
+  <id-linestyle class="js-note-line" data-none="true" data-label="{{{i18n "render_settings_tab_note_border"}}}"></id-linestyle>
   <id-range class='js-note-linewidth' data-min="1" data-max="10"></id-range>
 
-  <label>Default note colors</label>
+  <label>{{{i18n "render_settings_tab_note_colors"}}}</label>
   <div style="display: flex">
     <div style="display: flex; flex-direction: column; flex-wrap: wrap">
-      <id-popup title="Note fill" class="note-colortype selected" data-type="fill">
+      <id-popup title="{{{i18n "render_settings_tab_note_colors_fill"}}}" class="note-colortype selected" data-type="fill">
         <svg class="icon"><use xlink:href="dist/icons.svg#note-fill"></use></svg>
       </id-popup>
-      <id-popup title="Note border" class="note-colortype" data-type="border">
+      <id-popup title="{{{i18n "render_settings_tab_note_colors_border"}}}" class="note-colortype" data-type="border">
         <svg class="icon"><use xlink:href="dist/icons.svg#note-border"></use></svg>
       </id-popup>
-      <id-popup title="Note text" class="note-colortype" data-type="text">
+      <id-popup title="{{{i18n "render_settings_tab_note_colors_text"}}}" class="note-colortype" data-type="text">
         <svg class="icon"><use xlink:href="dist/icons.svg#note-text"></use></svg>
       </id-popup>
     </div>
@@ -114,20 +114,20 @@
 </div>
 
 <div class="tab-body" id="tab-settings-blocks">
-  <id-range class='js-block-width' data-min="64" data-max="256" data-label="Default block width"></id-range>
-  <id-range class='js-block-height' data-min="64" data-max="256" data-label="Default block height"></id-range>
-  <id-shape class="js-block-shape" data-label="Default block shape"></id-shape>    
-  <id-range class='js-block-rounding' data-min="0" data-max="30" data-label="Default block rounding"></id-range>
-  <id-linestyle class="js-block-line" data-none="true" data-label="Default block border style"></id-linestyle>
+  <id-range class='js-block-width' data-min="64" data-max="256" data-label="{{{i18n "render_settings_tab_block_width"}}}"></id-range>
+  <id-range class='js-block-height' data-min="64" data-max="256" data-label="{{{i18n "render_settings_tab_block_height"}}}"></id-range>
+  <id-shape class="js-block-shape" data-label="{{{i18n "render_settings_tab_block_shape"}}}"></id-shape>
+  <id-range class='js-block-rounding' data-min="0" data-max="30" data-label="{{{i18n "render_settings_tab_block_rounding"}}}"></id-range>
+  <id-linestyle class="js-block-line" data-none="true" data-label="{{{i18n "render_settings_tab_block_border"}}}"></id-linestyle>
   <id-range class='js-block-linewidth' data-min="1" data-max="10"></id-range>
 
-  <label>Default block colors</label>
+  <label>{{{i18n "render_settings_tab_block_colors"}}}</label>
   <div style="display: flex">
     <div style="display: flex; flex-direction: column; flex-wrap: wrap">
-      <id-popup title="Block fill" class="block-colortype selected" data-type="fill">
+      <id-popup title="{{{i18n "render_settings_tab_block_colors_fill"}}}" class="block-colortype selected" data-type="fill">
         <svg class="icon"><use xlink:href="dist/icons.svg#block-fill"></use></svg>
       </id-popup>
-      <id-popup title="Block border" class="block-colortype" data-type="border">
+      <id-popup title="{{{i18n "render_settings_tab_block_colors_border"}}}" class="block-colortype" data-type="border">
         <svg class="icon"><use xlink:href="dist/icons.svg#block-border"></use></svg>
       </id-popup>
     </div>

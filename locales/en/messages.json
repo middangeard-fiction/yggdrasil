@@ -97,6 +97,214 @@
     "render_settings_title": {
         "message": "Render settings"
     },
+    "render_settings_tab_basic": {
+        "message": "Basic",
+        "description": "Render settings 'Basic' tab title"
+    },
+    "render_settings_tab_basic_visible": {
+        "message": "Visible",
+        "description": "Render settings 'Basic' tab => 'Visible' checkbox"
+    },
+    "render_settings_tab_basic_origin": {
+        "message": "Show origin",
+        "description": "Render settings 'Basic' tab => 'Show origin' checkbox"
+    },
+    "render_settings_tab_basic_snap": {
+        "message": "Snap to grid",
+        "description": "Render settings 'Basic' tab => 'Snap to grid' checkbox"
+    },
+    "render_settings_tab_basic_size": {
+        "message": "Grid size",
+        "description": "Render settings 'Basic' tab => 'Grid size' slider"
+    },
+    "render_settings_tab_basic_colors": {
+        "message": "Map colors",
+        "description": "Render settings 'Basic' tab => 'Map colors' headline"
+    },
+    "render_settings_tab_basic_colors_background": {
+        "message": "Map background",
+        "description": "Render settings 'Basic' tab => 'Map colors' picker => Map background"
+    },
+    "render_settings_tab_basic_colors_grid": {
+        "message": "Grid",
+        "description": "Render settings 'Basic' tab => 'Map colors' picker => Grid"
+    },
+    "render_settings_tab_basic_themes": {
+        "message": "Quick themes",
+        "description": "Render settings 'Basic' tab => 'Quick themes' headline"
+    },
+    "render_settings_tab_basic_themes_default": {
+        "message": "Default",
+        "description": "Render settings 'Basic' tab => 'Quick themes' picker => Default"
+    },
+    "render_settings_tab_room": {
+        "message": "Room",
+        "description": "Render settings 'Room' tab title"
+    },
+    "render_settings_tab_room_width": {
+        "message": "Default room width",
+        "description": "Render settings 'Room' tab => 'Room width' slider"
+    },
+    "render_settings_tab_room_height": {
+        "message": "Default room height",
+        "description": "Render settings 'Room' tab => 'Room height' slider"
+    },
+    "render_settings_tab_room_dark": {
+        "message": "Darkness stripe size",
+        "description": "Render settings 'Room' tab => 'Darkness stripe size' slider"
+    },
+    "render_settings_tab_room_shape": {
+        "message": "Default room shape",
+        "description": "Render settings 'Room' tab => 'Room shape' picker"
+    },
+    "render_settings_tab_room_rounding": {
+        "message": "Default room rounding",
+        "description": "Render settings 'Room' tab => 'Rounding' slider"
+    },
+    "render_settings_tab_room_border": {
+        "message": "Default room border style",
+        "description": "Render settings 'Room' tab => 'Border style' picker"
+    },
+    "render_settings_tab_room_colors": {
+        "message": "Default room colors",
+        "description": "Render settings 'Room' tab => 'Colors' picker"
+    },
+    "render_settings_tab_room_colors_fill": {
+        "message": "Room fill",
+        "description": "Render settings 'Room' tab => 'Colors' picker => Fill"
+    },
+    "render_settings_tab_room_colors_border": {
+        "message": "Room border",
+        "description": "Render settings 'Room' tab => 'Colors' picker => Border"
+    },
+    "render_settings_tab_room_colors_name": {
+        "message": "Room name",
+        "description": "Render settings 'Room' tab => 'Colors' picker => Name"
+    },
+    "render_settings_tab_room_colors_subtitle": {
+        "message": "Room subtitle",
+        "description": "Render settings 'Room' tab => 'Colors' picker => Subtitle"
+    },
+    "render_settings_tab_room_colors_dark": {
+        "message": "Darkness stripe",
+        "description": "Render settings 'Room' tab => 'Colors' picker => Darkness stripe"
+    },
+    "render_settings_tab_room_colors_start": {
+        "message": "Start room",
+        "description": "Render settings 'Room' tab => 'Colors' picker => Start room"
+    },
+    "render_settings_tab_room_colors_end": {
+        "message": "End room",
+        "description": "Render settings 'Room' tab => 'Colors' picker => End room"
+    },
+    "render_settings_tab_line": {
+        "message": "Line",
+        "description": "Render settings 'Line' tab title"
+    },
+    "render_settings_tab_line_style": {
+        "message": "Default connector line style",
+        "description": "Render settings 'Line' tab => 'Line style' picker"
+    },
+    "render_settings_tab_line_length": {
+        "message": "Default connector stalk length",
+        "description": "Render settings 'Line' tab => 'Stalk length' slider"
+    },
+    "render_settings_tab_line_distance": {
+        "message": "Label distance",
+        "description": "Render settings 'Line' tab => 'Label distance' slider"
+    },
+    "render_settings_tab_line_size": {
+        "message": "One-way arrow size",
+        "description": "Render settings 'Line' tab => 'One-way arrow size' slider"
+    },
+    "render_settings_tab_line_curve": {
+        "message": "Use curves",
+        "description": "Render settings 'Line' tab => 'Use curves' checkbox"
+    },
+    "render_settings_tab_line_curve_strength": {
+        "message": "Default connector curve strength",
+        "description": "Render settings 'Line' tab => 'Curve strength' slider"
+    },
+    "render_settings_tab_line_colors": {
+        "message": "Default connector color",
+        "description": "Render settings 'Line' tab => 'Colors' picker"
+    },
+    "render_settings_tab_note": {
+        "message": "Note",
+        "description": "Render settings 'Note' tab title"
+    },
+    "render_settings_tab_note_width": {
+        "message": "Default note width",
+        "description": "Render settings 'Note' tab => 'Note width' slider"
+    },
+    "render_settings_tab_note_height": {
+        "message": "Default note height",
+        "description": "Render settings 'Note' tab => 'Note height' slider"
+    },
+    "render_settings_tab_note_shape": {
+        "message": "Default note shape",
+        "description": "Render settings 'Note' tab => 'Note shape' picker"
+    },
+    "render_settings_tab_note_rounding": {
+        "message": "Default note rounding",
+        "description": "Render settings 'Note' tab => 'Rounding' slider"
+    },
+    "render_settings_tab_note_border": {
+        "message": "Default note border style",
+        "description": "Render settings 'Note' tab => 'Border style' picker"
+    },
+    "render_settings_tab_note_colors": {
+        "message": "Default note colors",
+        "description": "Render settings 'Note' tab => 'Colors' picker"
+    },
+    "render_settings_tab_note_colors_fill": {
+        "message": "Note fill",
+        "description": "Render settings 'Note' tab => 'Colors' picker => Fill"
+    },
+    "render_settings_tab_note_colors_border": {
+        "message": "Note border",
+        "description": "Render settings 'Note' tab => 'Colors' picker => Border"
+    },
+    "render_settings_tab_note_colors_text": {
+        "message": "Note text",
+        "description": "Render settings 'Note' tab => 'Colors' picker => Text"
+    },
+    "render_settings_tab_block": {
+        "message": "Block",
+        "description": "Render settings 'Block' tab title"
+    },
+    "render_settings_tab_block_width": {
+        "message": "Default block width",
+        "description": "Render settings 'Block' tab => 'Block width' slider"
+    },
+    "render_settings_tab_block_height": {
+        "message": "Default block height",
+        "description": "Render settings 'Block' tab => 'Block height' slider"
+    },
+    "render_settings_tab_block_shape": {
+        "message": "Default block shape",
+        "description": "Render settings 'Block' tab => 'Block shape' picker"
+    },
+    "render_settings_tab_block_rounding": {
+        "message": "Default block rounding",
+        "description": "Render settings 'Block' tab => 'Rounding' slider"
+    },
+    "render_settings_tab_block_border": {
+        "message": "Default block border style",
+        "description": "Render settings 'Block' tab => 'Border style' picker"
+    },
+    "render_settings_tab_block_colors": {
+        "message": "Default block colors",
+        "description": "Render settings 'Block' tab => 'Colors' picker"
+    },
+    "render_settings_tab_block_colors_fill": {
+        "message": "Block fill",
+        "description": "Render settings 'Block' tab => 'Colors' picker => Fill"
+    },
+    "render_settings_tab_block_colors_border": {
+        "message": "Block border",
+        "description": "Render settings 'Block' tab => 'Colors' picker => Border"
+    },
     "export_map_title": {
         "message": "Export"
     },
@@ -246,6 +454,10 @@
         "message": "Objects",
         "description": "Room panel 'Objects' tab title"
     },
+    "panel_room_tab_objects_none": {
+        "message": "There are no objects in this location.",
+        "description": "Room panel 'Objects' tab => Empty object list text"
+    },
     "panel_room_tab_objects_add_button": {
         "message": "Add object",
         "description": "Room panel 'Objects' tab => 'Add object' button"
@@ -277,6 +489,58 @@
     "panel_room_tab_style_colors_subtitle": {
         "message": "Room subtitle",
         "description": "Room panel 'Style' tab => 'Colors' picker => Subtitle"
+    },
+    "panel_connector_title": {
+        "message": "Connector",
+        "description": "Connector panel headline"
+    },
+    "panel_connector_tab_info": {
+        "message": "Info",
+        "description": "Connector panel 'Info' tab title"
+    },
+    "panel_connector_tab_info_name": {
+        "message": "Connector name",
+        "description": "Connector panel 'Info' tab => 'Connector name' input"
+    },
+    "panel_connector_tab_info_curve": {
+        "message": "Curve",
+        "description": "Connector panel 'Info' tab => 'Curve' checkbox"
+    },
+    "panel_connector_tab_info_uni": {
+        "message": "One way",
+        "description": "Connector panel 'Info' tab => 'One way' checkbox"
+    },
+    "panel_connector_tab_info_reverse_button": {
+        "message": "Reverse",
+        "description": "Connector panel 'Info' tab => 'Reverse' button"
+    },
+    "panel_connector_tab_info_start_type": {
+        "message": "Start type",
+        "description": "Connector panel 'Info' tab => 'Start type' input"
+    },
+    "panel_connector_tab_info_start_label": {
+        "message": "Start label",
+        "description": "Connector panel 'Info' tab => 'Start label' input"
+    },
+    "panel_connector_tab_info_end_type": {
+        "message": "End type",
+        "description": "Connector panel 'Info' tab => 'End type' input"
+    },
+    "panel_connector_tab_info_end_label": {
+        "message": "End label",
+        "description": "Connector panel 'Info' tab => 'End label' input"
+    },
+    "panel_connector_tab_style": {
+        "message": "Style",
+        "description": "Connector panel 'Style' tab title"
+    },
+    "panel_connector_tab_style_line": {
+        "message": "Line style",
+        "description": "Connector panel 'Style' tab => 'Line style' picker"
+    },
+    "panel_connector_tab_style_color": {
+        "message": "Line color",
+        "description": "Connector panel 'Style' tab => 'Line color' picker"
     },
     "control_color_picker_recent": {
         "message": "Recent colors",

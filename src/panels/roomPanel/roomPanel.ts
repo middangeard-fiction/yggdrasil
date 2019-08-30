@@ -123,7 +123,7 @@ export class RoomPanel extends Panel implements Subscriber {
   refreshObjList() {
     this.objList.innerHTML = "";
     if(this.room.objects.length == 0) {
-      this.objList.innerHTML = "<p>There are no objects in this location.</p>";
+      this.objList.innerHTML = `<p>${App.i18n.getMessage("panel_room_tab_objects_none")}</p>`;
     } 
     else {
       this.addEditors(this.room.objects, 0);
