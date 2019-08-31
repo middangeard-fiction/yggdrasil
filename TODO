@@ -39,6 +39,13 @@
   ☐ l10n support
     ☐ Localize desktop app menu bar
     ☐ Localize general UI
+  ☐ Vendor "online" JS dependencies (index.html)
+
+0.4.0:
+  ☐ Chrome OS App
+    ☐ Rosetta-TS:
+      ☐ Detect Chrome OS context.
+      ☐ Alias App.i18n.getMessage() to chrome.i18n.getMessage().
 
 Bugs:
 

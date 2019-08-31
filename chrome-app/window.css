@@ -1,0 +1,65 @@
+header {
+  padding: 0!important;
+}
+
+.topbutton-bar {
+  -webkit-box-align: center;
+  display: -webkit-box;
+  margin-left: auto;
+}
+
+.topbutton-bar button {
+  -webkit-app-region: no-drag;
+  -webkit-box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 0;
+  display: block;
+  height: 32px;
+  margin-inline-end: 10px;
+  min-width: 0;
+  outline: none;
+  padding: 0;
+  width: 32px;
+}
+
+.topbutton-bar button:active {
+  -webkit-box-shadow:
+    0 1px 0 0 #c2c2c2 inset,
+    0 0 0 1px #dedede inset;
+}
+
+.topbutton-bar button:hover,
+.topbutton-bar button:focus,
+.topbutton-bar button:active {
+  background-color: #ededed;
+}
+
+.top-titlebar {
+    -webkit-app-region: drag;
+  }
+
+  .topbutton-bar .close-button {
+  background-image: -webkit-image-set(
+        url(close.png) 1x,
+        url(close.png) 2x);
+}
+
+.topbutton-bar .maximize-button {
+  background-image: -webkit-image-set(
+    url(maximize.png) 1x,
+    url(maximize.png) 2x);
+}
+
+.topbutton-bar .minimize-button {
+  background-image: -webkit-image-set(
+    url(minimize.png) 1x,
+    url(minimize.png) 2x);
+}
+
+#menu {
+  -webkit-app-region: no-drag;
+  padding: 15px 20px 0 20px;
+}

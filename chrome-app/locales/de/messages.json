@@ -1,0 +1,71 @@
+{
+    "ok_button": {
+        "message": "OK"
+    },
+    "cancel_button": {
+        "message": "Abbrechen"
+    },
+    "new_map_title": {
+        "message": "Neue Karte"
+    },
+    "new_map_text": {
+        "message": "Der vorhandene Fortschritt wird unwiderruflich entfernt. Fortfahren?"
+    },
+    "load_map_title": {
+        "message": "Öffnen"
+    },
+    "import_map_title": {
+        "message": "Importieren"
+    },
+    "save_map_title": {
+        "message": "Speichern als"
+    },
+    "save_image_title": {
+        "message": "Speichern als Bild"
+    },
+    "map_settings_title": {
+        "message": "Karteneinstellungen"
+    },
+    "render_settings_title": {
+        "message": "Anzeigeeinstellungen"
+    },
+    "export_map_title": {
+        "message": "Exportieren"
+    },
+    "apply_theme_title": {
+        "message": "Farbschema übernehmen"
+    },
+    "apply_theme_text": {
+        "message": "Die Applikation eines neuen Farbschemas überschreibt die vorhandenen Anzeigeeinstellungen. Fortfahren?"
+    },
+    "app_file": {
+        "message": "Datei"
+    },
+    "app_file_quit": {
+        "message": "Anwendung Beenden"
+    },
+    "app_edit": {
+        "message": "Bearbeiten"
+    },
+    "app_maps": {
+        "message": "Karten"
+    },
+    "app_settings": {
+        "message": "Einstellungen"
+    },
+    "app_help": {
+        "message": "Hilfe"
+    },
+    "app_quit_title": {
+        "message": "Yggdrasil Beenden"
+    },
+    "app_quit_text": {
+        "message": "Der vorhandene Fortschritt wird unwiderruflich entfernt. Fortfahren?"
+    },
+    "app_load_map_title": {
+        "message": "Beispielkarte laden"
+    },
+    "app_load_map_text": {
+        "message": "Der vorhandene Fortschritt wird unwiderruflich entfernt. Fortfahren?"
+    }
+}

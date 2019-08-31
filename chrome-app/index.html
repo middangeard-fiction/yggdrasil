@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Yggdrasil</title>
+  <link href="font.css" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="window.css">
+</head>
+<body>
+  <header class="top-titlebar">
+     <svg id="menu" class="icon" style="cursor: pointer; fill:#fff"><use xlink:href="dist/icons.svg#bars"></use></svg>
+     <h1>Yggdrasil</h1>
+     <span class="topbutton-bar">
+        <button class="minimize-button" id="top-titlebar-minimize-button">
+        </button>
+        <button class="maximize-button" id="top-titlebar-maximize-button">
+        </button>
+        <button class="close-button" id="top-titlebar-close-button">
+        </button>
+       </span>
+  </header>
+      
+  <canvas id="hittest" style="display: none; width: 1px; height: 1px"></canvas>
+
+  <canvas id="export" style="display: none"></canvas>
+
+  <div id="window">
+    <div class="window-body">
+      <h1 class="title">(title)</h1>
+      <p class="content">(content)</p>
+    </div>
+    <div class="window-buttons">
+      <button class="btn ok">(ok)</button>
+      <button class="btn cancel">(cancel)</button>
+    </div>
+  </div>
+
+  <div id="editor">
+    <div id="status">
+      <div id="control-center" title="Center map"><svg class="icon small"><use xlink:href="dist/icons.svg#center"></use></svg></div>
+      <div id="control-zoomin" title="Zoom in"><svg class="icon small"><use xlink:href="dist/icons.svg#zoom-in"></use></svg></div>
+      <div id="control-zoomout" title="Zoom out"><svg class="icon small"><use xlink:href="dist/icons.svg#zoom-out"></use></svg></div>
+      <input id="control-zoom" type="text" value="100%">
+    </div>
+    <canvas id="canvas" tabindex='1'></canvas>
+  </div>
+
+  <div id="toolpanel" class="panel panel-left show" style="width:75px"></div>
+  <div id="menupanel" class="panel panel-left" style="padding-left: 0; padding-right: 0"></div>  
+  <div id="renderpanel" class="panel panel-right"></div>
+  <div id="mappanel" class="panel panel-right"></div>
+  <div id="roompanel" class="panel panel-right"></div>
+  <div id="connectorpanel" class="panel panel-right"></div>  
+  <div id="notepanel" class="panel panel-right"></div>  
+  <div id="blockpanel" class="panel panel-right"></div>  
+  
+  <div id="roompopup" class="popup"></div>
+  <div id="notepopup" class="popup"></div>
+  <div id="blockpopup" class="popup"></div>
+  <div id="connectorpopup" class="popup"></div>  
+
+  <script src="handlebars.runtime.min.js"></script>
+  <script src="FileSaver.min.js"></script>
+  <script src="system.js"></script>
+  <script src="dist/handlebars.js"></script>
+  <script src="dist/app.js"></script>
+  <script src="new.js"></script>
+</body>
+</html>

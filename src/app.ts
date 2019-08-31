@@ -11,6 +11,7 @@ import { Selection } from './selection.js';
 import { Desktop } from './desktop.js';
 import { Rosetta } from './rosetta/rosetta';
 import i18nConfig from './config/i18n';
+import { Chrome } from './chrome.js';
 
 export class App {
   // - App holds the current map.
@@ -51,6 +52,7 @@ export class App {
     document.addEventListener('astilectron-ready', function () {
       Desktop.initialize();
     })
+    Chrome.initialize();
   }
 
   // Create all GUI components:

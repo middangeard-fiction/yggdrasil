@@ -27,7 +27,7 @@ export class Window {
     this.elem.querySelector('.title').innerHTML = title;
     this.elem.querySelector('.content').innerHTML = content;
     this.elem.querySelector('.ok').innerHTML = App.i18n.getMessage("ok_button")
-    this.elem.querySelector('.cancel').innerHTML = App.i18n.getMessage("cancel_button")
+    this.elem.querySelector('.cancel').innerHTML = chrome.i18n.getMessage("cancel_button")
     this.onOK = onOK;
     this.onCancel = onCancel;
 
