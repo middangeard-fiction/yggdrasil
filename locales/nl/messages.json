@@ -5,6 +5,38 @@
     "cancel_button": {
         "message": "Annuleren"
     },
+    "element_move_front": {
+        "message": "Breng Naar Voorgrond",
+        "description": "Any element popup => 'Position' icon => 'Bring to Front'"
+    },
+    "element_move_forward": {
+        "message": "Breng Naar Voren",
+        "description": "Any element popup => 'Position' icon => 'Bring Forward'"
+    },
+    "element_move_backward": {
+        "message": "Stuur Naar Achteren",
+        "description": "Any element popup => 'Position' icon => 'Send Backward'"
+    },
+    "element_move_back": {
+        "message": "Stuur Naar Achtergrond",
+        "description": "Any element popup => 'Position' icon => 'Send to Back'"
+    },
+    "popup_note_details_note": {
+        "message": "Tekst",
+        "description": "Note popup => 'Details' icon => 'Text' textarea"
+    },
+    "popup_room_details_name": {
+        "message": "Naam",
+        "description": "Room popup => 'Details' icon => 'Name' input"
+    },
+    "popup_room_details_subtitle": {
+        "message": "Ondertitel",
+        "description": "Room popup => 'Details' icon => 'Subtitle' input"
+    },
+    "popup_connector_details_name": {
+        "message": "Naam",
+        "description": "Connector popup => 'Details' icon => 'Name' input"
+    },
     "new_map_title": {
         "message": "Nieuwe Kaart"
     },
@@ -42,8 +74,236 @@
     "map_settings_title": {
         "message": "Kaartinstellingen"
     },
+    "map_settings_tab_info": {
+        "message": "Informatie",
+        "description": "Map settings 'Info' tab title"
+    },
+    "map_settings_tab_info_name": {
+        "message": "Kaarttitel",
+        "description": "Map settings 'Info' tab => 'Map title' input"
+    },
+    "map_settings_tab_info_author": {
+        "message": "Auteur",
+        "description": "Map settings 'Info' tab => 'Map author' input"
+    },
+    "map_settings_tab_info_version": {
+        "message": "Kaartversie",
+        "description": "Map settings 'Info' tab => 'Map version' input"
+    },
+    "map_settings_tab_info_description": {
+        "message": "Omschrijving",
+        "description": "Map settings 'Info' tab => 'Description' textarea"
+    },
     "render_settings_title": {
         "message": "Visualisatieinstellingen"
+    },
+    "render_settings_tab_basic": {
+        "message": "Eenvoudig",
+        "description": "Render settings 'Basic' tab title"
+    },
+    "render_settings_tab_basic_visible": {
+        "message": "Zichtbaar",
+        "description": "Render settings 'Basic' tab => 'Visible' checkbox"
+    },
+    "render_settings_tab_basic_origin": {
+        "message": "Toon oorsprong",
+        "description": "Render settings 'Basic' tab => 'Show origin' checkbox"
+    },
+    "render_settings_tab_basic_snap": {
+        "message": "Volg raster",
+        "description": "Render settings 'Basic' tab => 'Snap to grid' checkbox"
+    },
+    "render_settings_tab_basic_size": {
+        "message": "Rastergrootte",
+        "description": "Render settings 'Basic' tab => 'Grid size' slider"
+    },
+    "render_settings_tab_basic_colors": {
+        "message": "Kaartkleuren",
+        "description": "Render settings 'Basic' tab => 'Map colors' headline"
+    },
+    "render_settings_tab_basic_colors_background": {
+        "message": "Kaartachtergrond",
+        "description": "Render settings 'Basic' tab => 'Map colors' picker => Map background"
+    },
+    "render_settings_tab_basic_colors_grid": {
+        "message": "Raster",
+        "description": "Render settings 'Basic' tab => 'Map colors' picker => Grid"
+    },
+    "render_settings_tab_basic_themes": {
+        "message": "Themacompilaties",
+        "description": "Render settings 'Basic' tab => 'Quick themes' headline"
+    },
+    "render_settings_tab_basic_themes_default": {
+        "message": "Standaard",
+        "description": "Render settings 'Basic' tab => 'Quick themes' picker => Default"
+    },
+    "render_settings_tab_room": {
+        "message": "Ruimte",
+        "description": "Render settings 'Room' tab title"
+    },
+    "render_settings_tab_room_width": {
+        "message": "Standaard ruimtebreedte",
+        "description": "Render settings 'Room' tab => 'Room width' slider"
+    },
+    "render_settings_tab_room_height": {
+        "message": "Standaard ruimtehoogte",
+        "description": "Render settings 'Room' tab => 'Room height' slider"
+    },
+    "render_settings_tab_room_dark": {
+        "message": "Dikte van duisternisstreep",
+        "description": "Render settings 'Room' tab => 'Darkness stripe size' slider"
+    },
+    "render_settings_tab_room_shape": {
+        "message": "Standaard ruimtevorm",
+        "description": "Render settings 'Room' tab => 'Room shape' picker"
+    },
+    "render_settings_tab_room_rounding": {
+        "message": "Standaard afronding ruimte",
+        "description": "Render settings 'Room' tab => 'Rounding' slider"
+    },
+    "render_settings_tab_room_border": {
+        "message": "Standaard stijl voor ruimtemarge",
+        "description": "Render settings 'Room' tab => 'Border style' picker"
+    },
+    "render_settings_tab_room_colors": {
+        "message": "Standaard ruimtekleuren",
+        "description": "Render settings 'Room' tab => 'Colors' picker"
+    },
+    "render_settings_tab_room_colors_fill": {
+        "message": "Ruimtevulkleur",
+        "description": "Render settings 'Room' tab => 'Colors' picker => Fill"
+    },
+    "render_settings_tab_room_colors_border": {
+        "message": "Randkleur",
+        "description": "Render settings 'Room' tab => 'Colors' picker => Border"
+    },
+    "render_settings_tab_room_colors_name": {
+        "message": "Naam ruimte",
+        "description": "Render settings 'Room' tab => 'Colors' picker => Name"
+    },
+    "render_settings_tab_room_colors_subtitle": {
+        "message": "Ondertitel ruimte",
+        "description": "Render settings 'Room' tab => 'Colors' picker => Subtitle"
+    },
+    "render_settings_tab_room_colors_dark": {
+        "message": "Duisternisstreep",
+        "description": "Render settings 'Room' tab => 'Colors' picker => Darkness stripe"
+    },
+    "render_settings_tab_room_colors_start": {
+        "message": "Startruimte",
+        "description": "Render settings 'Room' tab => 'Colors' picker => Start room"
+    },
+    "render_settings_tab_room_colors_end": {
+        "message": "Eindruimte",
+        "description": "Render settings 'Room' tab => 'Colors' picker => End room"
+    },
+    "render_settings_tab_line": {
+        "message": "Lijn",
+        "description": "Render settings 'Line' tab title"
+    },
+    "render_settings_tab_line_style": {
+        "message": "Standaardstijl voor verbindingslijnen",
+        "description": "Render settings 'Line' tab => 'Line style' picker"
+    },
+    "render_settings_tab_line_length": {
+        "message": "Standaardlengte voor verbindingsoorpsprong",
+        "description": "Render settings 'Line' tab => 'Stalk length' slider"
+    },
+    "render_settings_tab_line_distance": {
+        "message": "Etiketafstand",
+        "description": "Render settings 'Line' tab => 'Label distance' slider"
+    },
+    "render_settings_tab_line_size": {
+        "message": "Grootte éénrichtingspijl",
+        "description": "Render settings 'Line' tab => 'One-way arrow size' slider"
+    },
+    "render_settings_tab_line_curve": {
+        "message": "Gebruik curves",
+        "description": "Render settings 'Line' tab => 'Use curves' checkbox"
+    },
+    "render_settings_tab_line_curve_strength": {
+        "message": "Standaard curvesterkte",
+        "description": "Render settings 'Line' tab => 'Curve strength' slider"
+    },
+    "render_settings_tab_line_colors": {
+        "message": "Standaard verbindingskleur",
+        "description": "Render settings 'Line' tab => 'Colors' picker"
+    },
+    "render_settings_tab_note": {
+        "message": "Noot",
+        "description": "Render settings 'Note' tab title"
+    },
+    "render_settings_tab_note_width": {
+        "message": "Standaard nootbreedte",
+        "description": "Render settings 'Note' tab => 'Note width' slider"
+    },
+    "render_settings_tab_note_height": {
+        "message": "Standaard noodhoogte",
+        "description": "Render settings 'Note' tab => 'Note height' slider"
+    },
+    "render_settings_tab_note_shape": {
+        "message": "Standaard nootvorm",
+        "description": "Render settings 'Note' tab => 'Note shape' picker"
+    },
+    "render_settings_tab_note_rounding": {
+        "message": "Standaard nootafronding",
+        "description": "Render settings 'Note' tab => 'Rounding' slider"
+    },
+    "render_settings_tab_note_border": {
+        "message": "Standaardstijl nootmarge",
+        "description": "Render settings 'Note' tab => 'Border style' picker"
+    },
+    "render_settings_tab_note_colors": {
+        "message": "Standaard nootkleuren",
+        "description": "Render settings 'Note' tab => 'Colors' picker"
+    },
+    "render_settings_tab_note_colors_fill": {
+        "message": "Vulkleur voor noten",
+        "description": "Render settings 'Note' tab => 'Colors' picker => Fill"
+    },
+    "render_settings_tab_note_colors_border": {
+        "message": "Rand voor noten",
+        "description": "Render settings 'Note' tab => 'Colors' picker => Border"
+    },
+    "render_settings_tab_note_colors_text": {
+        "message": "Tekst in noten",
+        "description": "Render settings 'Note' tab => 'Colors' picker => Text"
+    },
+    "render_settings_tab_block": {
+        "message": "Blok",
+        "description": "Render settings 'Block' tab title"
+    },
+    "render_settings_tab_block_width": {
+        "message": "Standaard blokbreedte",
+        "description": "Render settings 'Block' tab => 'Block width' slider"
+    },
+    "render_settings_tab_block_height": {
+        "message": "Standaard blokhoogte",
+        "description": "Render settings 'Block' tab => 'Block height' slider"
+    },
+    "render_settings_tab_block_shape": {
+        "message": "Standaard blokvorm",
+        "description": "Render settings 'Block' tab => 'Block shape' picker"
+    },
+    "render_settings_tab_block_rounding": {
+        "message": "Standaard blokafronding",
+        "description": "Render settings 'Block' tab => 'Rounding' slider"
+    },
+    "render_settings_tab_block_border": {
+        "message": "Standaardstijl blokmarge",
+        "description": "Render settings 'Block' tab => 'Border style' picker"
+    },
+    "render_settings_tab_block_colors": {
+        "message": "Standaard blokkleuren",
+        "description": "Render settings 'Block' tab => 'Colors' picker"
+    },
+    "render_settings_tab_block_colors_fill": {
+        "message": "Blokkleur",
+        "description": "Render settings 'Block' tab => 'Colors' picker => Fill"
+    },
+    "render_settings_tab_block_colors_border": {
+        "message": "Randkleur",
+        "description": "Render settings 'Block' tab => 'Colors' picker => Border"
     },
     "export_map_title": {
         "message": "Exporteren"
@@ -53,6 +313,58 @@
     },
     "apply_theme_text": {
         "message": "Het toepassen van een nieuw thema overschrijft alle afbeeldingsinstellingen. Doorgaan?"
+    },
+    "panel_tool_cursor_hint": {
+        "message": "Muiscursor",
+        "description": "Tool panel => Cursor icon hint"
+    },
+    "panel_tool_room_hint": {
+        "message": "Ruimte toevoegen (R)",
+        "description": "Tool panel => Room icon hint"
+    },
+    "panel_tool_note_hint": {
+        "message": "Noot toevoegen (N)",
+        "description": "Tool panel => Note icon hint"
+    },
+    "panel_tool_block_hint": {
+        "message": "Blok toevoegen (B)",
+        "description": "Tool panel => Block icon hint"
+    },
+    "panel_block_title": {
+        "message": "Blok",
+        "description": "Block panel headline"
+    },
+    "panel_block_tab_info": {
+        "message": "Informatie",
+        "description": "Block panel 'Info' tab title"
+    },
+    "panel_block_tab_info_shape": {
+        "message": "Blokvorm",
+        "description": "Block panel 'Info' tab => 'Block shape' picker"
+    },
+    "panel_block_tab_info_rounding": {
+        "message": "Rechthoekafronding",
+        "description": "Block panel 'Info' tab => 'Rectangle rounding' slider"
+    },
+    "panel_block_tab_style": {
+        "message": "Stijl",
+        "description": "Block panel 'Style' tab title"
+    },
+    "panel_block_tab_style_border": {
+        "message": "Randstijl",
+        "description": "Block panel 'Style' tab => 'Border style' picker"
+    },
+    "panel_block_tab_style_colors": {
+        "message": "Kleuren",
+        "description": "Block panel 'Style' tab => 'Colors' picker"
+    },
+    "panel_block_tab_style_colors_fill": {
+        "message": "Blokkleur",
+        "description": "Block panel 'Style' tab => 'Colors' picker => Fill"
+    },
+    "panel_block_tab_style_colors_border": {
+        "message": "Randkleur",
+        "description": "Block panel 'Style' tab => 'Colors' picker => Border"
     },
     "panel_note_title": {
         "message": "Noot",
@@ -98,6 +410,138 @@
         "message": "Tekst in noten",
         "description": "Note panel 'Style' tab => 'Colors' picker => Text"
     },
+    "panel_room_title": {
+        "message": "Ruimte",
+        "description": "Room panel headline"
+    },
+    "panel_room_tab_info": {
+        "message": "Informatie",
+        "description": "Room panel 'Info' tab title"
+    },
+    "panel_room_tab_info_name": {
+        "message": "Naam ruimte",
+        "description": "Room panel 'Info' tab => 'Room name' input"
+    },
+    "panel_room_tab_info_subtitle": {
+        "message": "Ondertitel ruimte",
+        "description": "Room panel 'Info' tab => 'Room subtitle' input"
+    },
+    "panel_room_tab_info_dark": {
+        "message": "Duister",
+        "description": "Room panel 'Info' tab => 'Dark' checkbox"
+    },
+    "panel_room_tab_info_start": {
+        "message": "Startruimte",
+        "description": "Room panel 'Info' tab => 'Start room' checkbox"
+    },
+    "panel_room_tab_info_end": {
+        "message": "Eindruimte",
+        "description": "Room panel 'Info' tab => 'End room' checkbox"
+    },
+    "panel_room_tab_info_shape": {
+        "message": "Ruimtevorm",
+        "description": "Room panel 'Info' tab => 'Room shape' picker"
+    },
+    "panel_room_tab_info_rounding": {
+        "message": "Rechthoekafronding",
+        "description": "Room panel 'Info' tab => 'Rectangle rounding' slider"
+    },
+    "panel_room_tab_info_description": {
+        "message": "Omschrijving ruimte",
+        "description": "Room panel 'Info' tab => 'Room description' textarea"
+    },
+    "panel_room_tab_objects": {
+        "message": "Voorwerpen",
+        "description": "Room panel 'Objects' tab title"
+    },
+    "panel_room_tab_objects_none": {
+        "message": "Er zijn geen voorwerpen in deze ruimte.",
+        "description": "Room panel 'Objects' tab => Empty object list text"
+    },
+    "panel_room_tab_objects_add_button": {
+        "message": "Voorwerp toevoegen",
+        "description": "Room panel 'Objects' tab => 'Add object' button"
+    },
+    "panel_room_tab_style": {
+        "message": "Stijl",
+        "description": "Room panel 'Style' tab title"
+    },
+    "panel_room_tab_style_border": {
+        "message": "Randstijl",
+        "description": "Room panel 'Style' tab => 'Border style' picker"
+    },
+    "panel_room_tab_style_colors": {
+        "message": "Kleuren",
+        "description": "Room panel 'Style' tab => 'Colors' picker"
+    },
+    "panel_room_tab_style_colors_fill": {
+        "message": "Ruimtevulkleur",
+        "description": "Room panel 'Style' tab => 'Colors' picker => Fill"
+    },
+    "panel_room_tab_style_colors_border": {
+        "message": "Randkleur",
+        "description": "Room panel 'Style' tab => 'Colors' picker => Border"
+    },
+    "panel_room_tab_style_colors_name": {
+        "message": "Naam ruimte",
+        "description": "Room panel 'Style' tab => 'Colors' picker => Name"
+    },
+    "panel_room_tab_style_colors_subtitle": {
+        "message": "Ondertitel ruimte",
+        "description": "Room panel 'Style' tab => 'Colors' picker => Subtitle"
+    },
+    "panel_connector_title": {
+        "message": "Verbinding",
+        "description": "Connector panel headline"
+    },
+    "panel_connector_tab_info": {
+        "message": "Informatie",
+        "description": "Connector panel 'Info' tab title"
+    },
+    "panel_connector_tab_info_name": {
+        "message": "Naam verbinding",
+        "description": "Connector panel 'Info' tab => 'Connector name' input"
+    },
+    "panel_connector_tab_info_curve": {
+        "message": "Curve",
+        "description": "Connector panel 'Info' tab => 'Curve' checkbox"
+    },
+    "panel_connector_tab_info_uni": {
+        "message": "Één richting",
+        "description": "Connector panel 'Info' tab => 'One way' checkbox"
+    },
+    "panel_connector_tab_info_reverse_button": {
+        "message": "Omkeren",
+        "description": "Connector panel 'Info' tab => 'Reverse' button"
+    },
+    "panel_connector_tab_info_start_type": {
+        "message": "Starttype",
+        "description": "Connector panel 'Info' tab => 'Start type' input"
+    },
+    "panel_connector_tab_info_start_label": {
+        "message": "Startetiket",
+        "description": "Connector panel 'Info' tab => 'Start label' input"
+    },
+    "panel_connector_tab_info_end_type": {
+        "message": "Endtype",
+        "description": "Connector panel 'Info' tab => 'End type' input"
+    },
+    "panel_connector_tab_info_end_label": {
+        "message": "Eindetiket",
+        "description": "Connector panel 'Info' tab => 'End label' input"
+    },
+    "panel_connector_tab_style": {
+        "message": "Stijl",
+        "description": "Connector panel 'Style' tab title"
+    },
+    "panel_connector_tab_style_line": {
+        "message": "Lijnstijl",
+        "description": "Connector panel 'Style' tab => 'Line style' picker"
+    },
+    "panel_connector_tab_style_color": {
+        "message": "Lijnkleur",
+        "description": "Connector panel 'Style' tab => 'Line color' picker"
+    },
     "control_color_picker_recent": {
         "message": "Recente kleuren",
         "description": "Color picker => 'Recent colors'"
@@ -105,6 +549,46 @@
     "control_color_picker_standard": {
         "message": "Standaardkleuren",
         "description": "Color picker => 'Standard colors'"
+    },
+    "control_connector_picker_default": {
+        "message": "Standaard",
+        "description": "Connector Type picker => 'Default'"
+    },
+    "control_connector_picker_in": {
+        "message": "In",
+        "description": "Connector Type picker => 'In'"
+    },
+    "control_connector_picker_out": {
+        "message": "Uit",
+        "description": "Connector Type picker => 'Out'"
+    },
+    "control_connector_picker_up": {
+        "message": "Naar boven",
+        "description": "Connector Type picker => 'Up'"
+    },
+    "control_connector_picker_down": {
+        "message": "Naar beneden",
+        "description": "Connector Type picker => 'Down'"
+    },
+    "control_object_editor_name": {
+        "message": "Naam",
+        "description": "Room object editor => Object => 'Name'"
+    },
+    "control_object_editor_description": {
+        "message": "Omschrijving",
+        "description": "Room object editor => Object => 'Description'"
+    },
+    "control_object_editor_type_actor": {
+        "message": "Acteur",
+        "description": "Room object editor => Object => Type picker => 'Actor'"
+    },
+    "control_object_editor_type_item": {
+        "message": "Voorwerp",
+        "description": "Room object editor => Object => Type picker => 'Item'"
+    },
+    "control_object_editor_type_scenery": {
+        "message": "Decoratie",
+        "description": "Room object editor => Object => Type picker => 'Scenery'"
     },
     "app_file": {
         "message": "Bestand"
