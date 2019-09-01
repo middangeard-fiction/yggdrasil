@@ -5,6 +5,38 @@
     "cancel_button": {
         "message": "Anular"
     },
+    "element_move_front": {
+        "message": "Trazer para Frente de Tudo",
+        "description": "Any element popup => 'Position' icon => 'Bring to Front'"
+    },
+    "element_move_forward": {
+        "message": "Trazer para Frente",
+        "description": "Any element popup => 'Position' icon => 'Bring Forward'"
+    },
+    "element_move_backward": {
+        "message": "Mandar para Traz",
+        "description": "Any element popup => 'Position' icon => 'Send Backward'"
+    },
+    "element_move_back": {
+        "message": "Mandar para Traz de Tudo",
+        "description": "Any element popup => 'Position' icon => 'Send to Back'"
+    },
+    "popup_note_details_note": {
+        "message": "Texto",
+        "description": "Note popup => 'Details' icon => 'Text' textarea"
+    },
+    "popup_room_details_name": {
+        "message": "Nome",
+        "description": "Room popup => 'Details' icon => 'Name' input"
+    },
+    "popup_room_details_subtitle": {
+        "message": "Subtítulo",
+        "description": "Room popup => 'Details' icon => 'Subtitle' input"
+    },
+    "popup_connector_details_name": {
+        "message": "Nome",
+        "description": "Connector popup => 'Details' icon => 'Name' input"
+    },
     "new_map_title": {
         "message": "Novo mapa"
     },
@@ -42,8 +74,236 @@
     "map_settings_title": {
         "message": "Configurações do mapa"
     },
+    "map_settings_tab_info": {
+        "message": "Informação",
+        "description": "Map settings 'Info' tab title"
+    },
+    "map_settings_tab_info_name": {
+        "message": "Título do mapa",
+        "description": "Map settings 'Info' tab => 'Map title' input"
+    },
+    "map_settings_tab_info_author": {
+        "message": "Autor do mapa",
+        "description": "Map settings 'Info' tab => 'Map author' input"
+    },
+    "map_settings_tab_info_version": {
+        "message": "Versão do mapa",
+        "description": "Map settings 'Info' tab => 'Map version' input"
+    },
+    "map_settings_tab_info_description": {
+        "message": "Descrição",
+        "description": "Map settings 'Info' tab => 'Description' textarea"
+    },
     "render_settings_title": {
         "message": "Configurações da visualização"
+    },
+    "render_settings_tab_basic": {
+        "message": "Básico",
+        "description": "Render settings 'Basic' tab title"
+    },
+    "render_settings_tab_basic_visible": {
+        "message": "Visível",
+        "description": "Render settings 'Basic' tab => 'Visible' checkbox"
+    },
+    "render_settings_tab_basic_origin": {
+        "message": "Mostrar origem",
+        "description": "Render settings 'Basic' tab => 'Show origin' checkbox"
+    },
+    "render_settings_tab_basic_snap": {
+        "message": "Seguir a grelha",
+        "description": "Render settings 'Basic' tab => 'Snap to grid' checkbox"
+    },
+    "render_settings_tab_basic_size": {
+        "message": "Tamanho da grelha",
+        "description": "Render settings 'Basic' tab => 'Grid size' slider"
+    },
+    "render_settings_tab_basic_colors": {
+        "message": "Cores do mapa",
+        "description": "Render settings 'Basic' tab => 'Map colors' headline"
+    },
+    "render_settings_tab_basic_colors_background": {
+        "message": "Fundo do mapa",
+        "description": "Render settings 'Basic' tab => 'Map colors' picker => Map background"
+    },
+    "render_settings_tab_basic_colors_grid": {
+        "message": "Grelha",
+        "description": "Render settings 'Basic' tab => 'Map colors' picker => Grid"
+    },
+    "render_settings_tab_basic_themes": {
+        "message": "Temas rápidos",
+        "description": "Render settings 'Basic' tab => 'Quick themes' headline"
+    },
+    "render_settings_tab_basic_themes_default": {
+        "message": "Por omissão",
+        "description": "Render settings 'Basic' tab => 'Quick themes' picker => Default"
+    },
+    "render_settings_tab_room": {
+        "message": "Espaço",
+        "description": "Render settings 'Room' tab title"
+    },
+    "render_settings_tab_room_width": {
+        "message": "Largura do espaço por omissão",
+        "description": "Render settings 'Room' tab => 'Room width' slider"
+    },
+    "render_settings_tab_room_height": {
+        "message": "Altura do espaço por omissão",
+        "description": "Render settings 'Room' tab => 'Room height' slider"
+    },
+    "render_settings_tab_room_dark": {
+        "message": "Tamanho da risca de escuridão",
+        "description": "Render settings 'Room' tab => 'Darkness stripe size' slider"
+    },
+    "render_settings_tab_room_shape": {
+        "message": "Forma de espaço por omissão",
+        "description": "Render settings 'Room' tab => 'Room shape' picker"
+    },
+    "render_settings_tab_room_rounding": {
+        "message": "Arredondamento de espaço por omissão",
+        "description": "Render settings 'Room' tab => 'Rounding' slider"
+    },
+    "render_settings_tab_room_border": {
+        "message": "Estilo de margem de espaço por omissão",
+        "description": "Render settings 'Room' tab => 'Border style' picker"
+    },
+    "render_settings_tab_room_colors": {
+        "message": "Cores de espaço por omissão",
+        "description": "Render settings 'Room' tab => 'Colors' picker"
+    },
+    "render_settings_tab_room_colors_fill": {
+        "message": "Cor do espaço",
+        "description": "Render settings 'Room' tab => 'Colors' picker => Fill"
+    },
+    "render_settings_tab_room_colors_border": {
+        "message": "Margem do espaço",
+        "description": "Render settings 'Room' tab => 'Colors' picker => Border"
+    },
+    "render_settings_tab_room_colors_name": {
+        "message": "Nome do espaço",
+        "description": "Render settings 'Room' tab => 'Colors' picker => Name"
+    },
+    "render_settings_tab_room_colors_subtitle": {
+        "message": "Subtítulo do espaço",
+        "description": "Render settings 'Room' tab => 'Colors' picker => Subtitle"
+    },
+    "render_settings_tab_room_colors_dark": {
+        "message": "Risca de escuridão",
+        "description": "Render settings 'Room' tab => 'Colors' picker => Darkness stripe"
+    },
+    "render_settings_tab_room_colors_start": {
+        "message": "Espaço de início",
+        "description": "Render settings 'Room' tab => 'Colors' picker => Start room"
+    },
+    "render_settings_tab_room_colors_end": {
+        "message": "Espaço de fim",
+        "description": "Render settings 'Room' tab => 'Colors' picker => End room"
+    },
+    "render_settings_tab_line": {
+        "message": "Linha",
+        "description": "Render settings 'Line' tab title"
+    },
+    "render_settings_tab_line_style": {
+        "message": "Estilo de conexão por omissão",
+        "description": "Render settings 'Line' tab => 'Line style' picker"
+    },
+    "render_settings_tab_line_length": {
+        "message": "Cumprimento de origem de conexão por omissão",
+        "description": "Render settings 'Line' tab => 'Stalk length' slider"
+    },
+    "render_settings_tab_line_distance": {
+        "message": "Distância de etiquetas",
+        "description": "Render settings 'Line' tab => 'Label distance' slider"
+    },
+    "render_settings_tab_line_size": {
+        "message": "Tamanho da seta de unidirecionalidade",
+        "description": "Render settings 'Line' tab => 'One-way arrow size' slider"
+    },
+    "render_settings_tab_line_curve": {
+        "message": "Usar curvas",
+        "description": "Render settings 'Line' tab => 'Use curves' checkbox"
+    },
+    "render_settings_tab_line_curve_strength": {
+        "message": "Força das curvas por omissão",
+        "description": "Render settings 'Line' tab => 'Curve strength' slider"
+    },
+    "render_settings_tab_line_colors": {
+        "message": "Cor de conexão por omissão",
+        "description": "Render settings 'Line' tab => 'Colors' picker"
+    },
+    "render_settings_tab_note": {
+        "message": "Nota",
+        "description": "Render settings 'Note' tab title"
+    },
+    "render_settings_tab_note_width": {
+        "message": "Largura de nota por omissão",
+        "description": "Render settings 'Note' tab => 'Note width' slider"
+    },
+    "render_settings_tab_note_height": {
+        "message": "Altura de nota por omissão",
+        "description": "Render settings 'Note' tab => 'Note height' slider"
+    },
+    "render_settings_tab_note_shape": {
+        "message": "Forma de nota por omissão",
+        "description": "Render settings 'Note' tab => 'Note shape' picker"
+    },
+    "render_settings_tab_note_rounding": {
+        "message": "Arredondamento de nota por omissão",
+        "description": "Render settings 'Note' tab => 'Rounding' slider"
+    },
+    "render_settings_tab_note_border": {
+        "message": "Estilo de margem de nota por omissão",
+        "description": "Render settings 'Note' tab => 'Border style' picker"
+    },
+    "render_settings_tab_note_colors": {
+        "message": "Cores de nota por omissão",
+        "description": "Render settings 'Note' tab => 'Colors' picker"
+    },
+    "render_settings_tab_note_colors_fill": {
+        "message": "Cor de notas",
+        "description": "Render settings 'Note' tab => 'Colors' picker => Fill"
+    },
+    "render_settings_tab_note_colors_border": {
+        "message": "Margem de notas",
+        "description": "Render settings 'Note' tab => 'Colors' picker => Border"
+    },
+    "render_settings_tab_note_colors_text": {
+        "message": "Texto de notas",
+        "description": "Render settings 'Note' tab => 'Colors' picker => Text"
+    },
+    "render_settings_tab_block": {
+        "message": "Bloco",
+        "description": "Render settings 'Block' tab title"
+    },
+    "render_settings_tab_block_width": {
+        "message": "Largura de bloco por omissão",
+        "description": "Render settings 'Block' tab => 'Block width' slider"
+    },
+    "render_settings_tab_block_height": {
+        "message": "Altura de bloco por omissão",
+        "description": "Render settings 'Block' tab => 'Block height' slider"
+    },
+    "render_settings_tab_block_shape": {
+        "message": "Forma de bloco por omissão",
+        "description": "Render settings 'Block' tab => 'Block shape' picker"
+    },
+    "render_settings_tab_block_rounding": {
+        "message": "Arredondamento de bloco por omissão",
+        "description": "Render settings 'Block' tab => 'Rounding' slider"
+    },
+    "render_settings_tab_block_border": {
+        "message": "Estilo de margem de bloco por omissão",
+        "description": "Render settings 'Block' tab => 'Border style' picker"
+    },
+    "render_settings_tab_block_colors": {
+        "message": "Cores de bloco por omissão",
+        "description": "Render settings 'Block' tab => 'Colors' picker"
+    },
+    "render_settings_tab_block_colors_fill": {
+        "message": "Cor de bloco",
+        "description": "Render settings 'Block' tab => 'Colors' picker => Fill"
+    },
+    "render_settings_tab_block_colors_border": {
+        "message": "Margem do bloco",
+        "description": "Render settings 'Block' tab => 'Colors' picker => Border"
     },
     "export_map_title": {
         "message": "Exportar"
@@ -53,6 +313,58 @@
     },
     "apply_theme_text": {
         "message": "A aplicação do novo tema resultará na alteração de todas as configurações de visualização. Deseja continuar?"
+    },
+    "panel_tool_cursor_hint": {
+        "message": "Pointeiro",
+        "description": "Tool panel => Cursor icon hint"
+    },
+    "panel_tool_room_hint": {
+        "message": "Acrescentar espaço (R)",
+        "description": "Tool panel => Room icon hint"
+    },
+    "panel_tool_note_hint": {
+        "message": "Acrescentar nota (N)",
+        "description": "Tool panel => Note icon hint"
+    },
+    "panel_tool_block_hint": {
+        "message": "Acrescentar bloco (B)",
+        "description": "Tool panel => Block icon hint"
+    },
+    "panel_block_title": {
+        "message": "Bloco",
+        "description": "Block panel headline"
+    },
+    "panel_block_tab_info": {
+        "message": "Informação",
+        "description": "Block panel 'Info' tab title"
+    },
+    "panel_block_tab_info_shape": {
+        "message": "Forma de bloco",
+        "description": "Block panel 'Info' tab => 'Block shape' picker"
+    },
+    "panel_block_tab_info_rounding": {
+        "message": "Arredondamento de rectângulos",
+        "description": "Block panel 'Info' tab => 'Rectangle rounding' slider"
+    },
+    "panel_block_tab_style": {
+        "message": "Estilo",
+        "description": "Block panel 'Style' tab title"
+    },
+    "panel_block_tab_style_border": {
+        "message": "Estilo de margen",
+        "description": "Block panel 'Style' tab => 'Border style' picker"
+    },
+    "panel_block_tab_style_colors": {
+        "message": "Cores",
+        "description": "Block panel 'Style' tab => 'Colors' picker"
+    },
+    "panel_block_tab_style_colors_fill": {
+        "message": "Cor de bloco",
+        "description": "Block panel 'Style' tab => 'Colors' picker => Fill"
+    },
+    "panel_block_tab_style_colors_border": {
+        "message": "Margem do bloco",
+        "description": "Block panel 'Style' tab => 'Colors' picker => Border"
     },
     "panel_note_title": {
         "message": "Nota",
@@ -98,6 +410,138 @@
         "message": "Texto de notas",
         "description": "Note panel 'Style' tab => 'Colors' picker => Text"
     },
+    "panel_room_title": {
+        "message": "Espaço",
+        "description": "Room panel headline"
+    },
+    "panel_room_tab_info": {
+        "message": "Informação",
+        "description": "Room panel 'Info' tab title"
+    },
+    "panel_room_tab_info_name": {
+        "message": "Nome do espaço",
+        "description": "Room panel 'Info' tab => 'Room name' input"
+    },
+    "panel_room_tab_info_subtitle": {
+        "message": "Subtítulo do espaço",
+        "description": "Room panel 'Info' tab => 'Room subtitle' input"
+    },
+    "panel_room_tab_info_dark": {
+        "message": "Escuro",
+        "description": "Room panel 'Info' tab => 'Dark' checkbox"
+    },
+    "panel_room_tab_info_start": {
+        "message": "Espaço de início",
+        "description": "Room panel 'Info' tab => 'Start room' checkbox"
+    },
+    "panel_room_tab_info_end": {
+        "message": "Espaço de fim",
+        "description": "Room panel 'Info' tab => 'End room' checkbox"
+    },
+    "panel_room_tab_info_shape": {
+        "message": "Forma do espaço",
+        "description": "Room panel 'Info' tab => 'Room shape' picker"
+    },
+    "panel_room_tab_info_rounding": {
+        "message": "Arredondamento de rectângulos",
+        "description": "Room panel 'Info' tab => 'Rectangle rounding' slider"
+    },
+    "panel_room_tab_info_description": {
+        "message": "Descrição do espaço",
+        "description": "Room panel 'Info' tab => 'Room description' textarea"
+    },
+    "panel_room_tab_objects": {
+        "message": "Objetos",
+        "description": "Room panel 'Objects' tab title"
+    },
+    "panel_room_tab_objects_none": {
+        "message": "Não há objetos neste espaço.",
+        "description": "Room panel 'Objects' tab => Empty object list text"
+    },
+    "panel_room_tab_objects_add_button": {
+        "message": "Acrescentar objecto",
+        "description": "Room panel 'Objects' tab => 'Add object' button"
+    },
+    "panel_room_tab_style": {
+        "message": "Estilo",
+        "description": "Room panel 'Style' tab title"
+    },
+    "panel_room_tab_style_border": {
+        "message": "Estilo de margen",
+        "description": "Room panel 'Style' tab => 'Border style' picker"
+    },
+    "panel_room_tab_style_colors": {
+        "message": "Cores",
+        "description": "Room panel 'Style' tab => 'Colors' picker"
+    },
+    "panel_room_tab_style_colors_fill": {
+        "message": "Cor do espaço",
+        "description": "Room panel 'Style' tab => 'Colors' picker => Fill"
+    },
+    "panel_room_tab_style_colors_border": {
+        "message": "Margem do espaço",
+        "description": "Room panel 'Style' tab => 'Colors' picker => Border"
+    },
+    "panel_room_tab_style_colors_name": {
+        "message": "Nome do espaço",
+        "description": "Room panel 'Style' tab => 'Colors' picker => Name"
+    },
+    "panel_room_tab_style_colors_subtitle": {
+        "message": "Subtítulo do espaço",
+        "description": "Room panel 'Style' tab => 'Colors' picker => Subtitle"
+    },
+    "panel_connector_title": {
+        "message": "Conexão",
+        "description": "Connector panel headline"
+    },
+    "panel_connector_tab_info": {
+        "message": "Informação",
+        "description": "Connector panel 'Info' tab title"
+    },
+    "panel_connector_tab_info_name": {
+        "message": "Nome de conexão",
+        "description": "Connector panel 'Info' tab => 'Connector name' input"
+    },
+    "panel_connector_tab_info_curve": {
+        "message": "Curva",
+        "description": "Connector panel 'Info' tab => 'Curve' checkbox"
+    },
+    "panel_connector_tab_info_uni": {
+        "message": "Unidirecional",
+        "description": "Connector panel 'Info' tab => 'One way' checkbox"
+    },
+    "panel_connector_tab_info_reverse_button": {
+        "message": "Inverter",
+        "description": "Connector panel 'Info' tab => 'Reverse' button"
+    },
+    "panel_connector_tab_info_start_type": {
+        "message": "Tipo de início",
+        "description": "Connector panel 'Info' tab => 'Start type' input"
+    },
+    "panel_connector_tab_info_start_label": {
+        "message": "Etiqueta de início",
+        "description": "Connector panel 'Info' tab => 'Start label' input"
+    },
+    "panel_connector_tab_info_end_type": {
+        "message": "Tipo do fim",
+        "description": "Connector panel 'Info' tab => 'End type' input"
+    },
+    "panel_connector_tab_info_end_label": {
+        "message": "Etiqueta do fim",
+        "description": "Connector panel 'Info' tab => 'End label' input"
+    },
+    "panel_connector_tab_style": {
+        "message": "Estilo",
+        "description": "Connector panel 'Style' tab title"
+    },
+    "panel_connector_tab_style_line": {
+        "message": "Estilo de linha",
+        "description": "Connector panel 'Style' tab => 'Line style' picker"
+    },
+    "panel_connector_tab_style_color": {
+        "message": "Cor de linha",
+        "description": "Connector panel 'Style' tab => 'Line color' picker"
+    },
     "control_color_picker_recent": {
         "message": "Cores recentes",
         "description": "Color picker => 'Recent colors'"
@@ -105,6 +549,46 @@
     "control_color_picker_standard": {
         "message": "Cores por omissão",
         "description": "Color picker => 'Standard colors'"
+    },
+    "control_connector_picker_default": {
+        "message": "Por omissão",
+        "description": "Connector Type picker => 'Default'"
+    },
+    "control_connector_picker_in": {
+        "message": "Para dentro",
+        "description": "Connector Type picker => 'In'"
+    },
+    "control_connector_picker_out": {
+        "message": "Para fora",
+        "description": "Connector Type picker => 'Out'"
+    },
+    "control_connector_picker_up": {
+        "message": "Para cima",
+        "description": "Connector Type picker => 'Up'"
+    },
+    "control_connector_picker_down": {
+        "message": "Para baixo",
+        "description": "Connector Type picker => 'Down'"
+    },
+    "control_object_editor_name": {
+        "message": "Nome",
+        "description": "Room object editor => Object => 'Name'"
+    },
+    "control_object_editor_description": {
+        "message": "Descrição",
+        "description": "Room object editor => Object => 'Description'"
+    },
+    "control_object_editor_type_actor": {
+        "message": "Ator",
+        "description": "Room object editor => Object => Type picker => 'Actor'"
+    },
+    "control_object_editor_type_item": {
+        "message": "Portátil",
+        "description": "Room object editor => Object => Type picker => 'Item'"
+    },
+    "control_object_editor_type_scenery": {
+        "message": "Decoração",
+        "description": "Room object editor => Object => Type picker => 'Scenery'"
     },
     "app_file": {
         "message": "Ficheiro"
