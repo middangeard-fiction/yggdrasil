@@ -5,6 +5,38 @@
     "cancel_button": {
         "message": "Annuler"
     },
+    "element_move_front": {
+        "message": "Passer devant",
+        "description": "Any element popup => 'Position' icon => 'Bring to Front'"
+    },
+    "element_move_forward": {
+        "message": "Passer au premier plan",
+        "description": "Any element popup => 'Position' icon => 'Bring Forward'"
+    },
+    "element_move_backward": {
+        "message": "Envoyer derrière",
+        "description": "Any element popup => 'Position' icon => 'Send Backward'"
+    },
+    "element_move_back": {
+        "message": "Envoyer au dernier plan",
+        "description": "Any element popup => 'Position' icon => 'Send to Back'"
+    },
+    "popup_note_details_note": {
+        "message": "Texte",
+        "description": "Note popup => 'Details' icon => 'Text' textarea"
+    },
+    "popup_room_details_name": {
+        "message": "Nom",
+        "description": "Room popup => 'Details' icon => 'Name' input"
+    },
+    "popup_room_details_subtitle": {
+        "message": "Sous-titre",
+        "description": "Room popup => 'Details' icon => 'Subtitle' input"
+    },
+    "popup_connector_details_name": {
+        "message": "Nom",
+        "description": "Connector popup => 'Details' icon => 'Name' input"
+    },
     "new_map_title": {
         "message": "Nouvelle carte"
     },
@@ -42,8 +74,236 @@
     "map_settings_title": {
         "message": "Paramètres de la carte"
     },
+    "map_settings_tab_info": {
+        "message": "Info",
+        "description": "Map settings 'Info' tab title"
+    },
+    "map_settings_tab_info_name": {
+        "message": "Titre de la carte",
+        "description": "Map settings 'Info' tab => 'Map title' input"
+    },
+    "map_settings_tab_info_author": {
+        "message": "Auteur de la carte",
+        "description": "Map settings 'Info' tab => 'Map author' input"
+    },
+    "map_settings_tab_info_version": {
+        "message": "Version de la carte",
+        "description": "Map settings 'Info' tab => 'Map version' input"
+    },
+    "map_settings_tab_info_description": {
+        "message": "Description",
+        "description": "Map settings 'Info' tab => 'Description' textarea"
+    },
     "render_settings_title": {
         "message": "Paramètres d'affichage"
+    },
+    "render_settings_tab_basic": {
+        "message": "Basic",
+        "description": "Render settings 'Basic' tab title"
+    },
+    "render_settings_tab_basic_visible": {
+        "message": "Visible",
+        "description": "Render settings 'Basic' tab => 'Visible' checkbox"
+    },
+    "render_settings_tab_basic_origin": {
+        "message": "Afficher l'origine",
+        "description": "Render settings 'Basic' tab => 'Show origin' checkbox"
+    },
+    "render_settings_tab_basic_snap": {
+        "message": "Repositionner sur la grille",
+        "description": "Render settings 'Basic' tab => 'Snap to grid' checkbox"
+    },
+    "render_settings_tab_basic_size": {
+        "message": "Taille de la grille",
+        "description": "Render settings 'Basic' tab => 'Grid size' slider"
+    },
+    "render_settings_tab_basic_colors": {
+        "message": "Couleur de la carte",
+        "description": "Render settings 'Basic' tab => 'Map colors' headline"
+    },
+    "render_settings_tab_basic_colors_background": {
+        "message": "Fond de la carte",
+        "description": "Render settings 'Basic' tab => 'Map colors' picker => Map background"
+    },
+    "render_settings_tab_basic_colors_grid": {
+        "message": "Grille",
+        "description": "Render settings 'Basic' tab => 'Map colors' picker => Grid"
+    },
+    "render_settings_tab_basic_themes": {
+        "message": "Thèmes rapides",
+        "description": "Render settings 'Basic' tab => 'Quick themes' headline"
+    },
+    "render_settings_tab_basic_themes_default": {
+        "message": "Défaut",
+        "description": "Render settings 'Basic' tab => 'Quick themes' picker => Default"
+    },
+    "render_settings_tab_room": {
+        "message": "Pièce",
+        "description": "Render settings 'Room' tab title"
+    },
+    "render_settings_tab_room_width": {
+        "message": "Largeur de la pièce par défaut",
+        "description": "Render settings 'Room' tab => 'Room width' slider"
+    },
+    "render_settings_tab_room_height": {
+        "message": "Hauteur de la pièce par défaut",
+        "description": "Render settings 'Room' tab => 'Room height' slider"
+    },
+    "render_settings_tab_room_dark": {
+        "message": "    Hachure par défaut de la pièce sombre",
+        "description": "Render settings 'Room' tab => 'Darkness stripe size' slider"
+    },
+    "render_settings_tab_room_shape": {
+        "message": "Forme par défaut de la pièce",
+        "description": "Render settings 'Room' tab => 'Room shape' picker"
+    },
+    "render_settings_tab_room_rounding": {
+        "message": "Arrondi de la pièce par défaut",
+        "description": "Render settings 'Room' tab => 'Rounding' slider"
+    },
+    "render_settings_tab_room_border": {
+        "message": "Style de la bordure de la pièce par défaut",
+        "description": "Render settings 'Room' tab => 'Border style' picker"
+    },
+    "render_settings_tab_room_colors": {
+        "message": "Couleur de la pièce par défaut",
+        "description": "Render settings 'Room' tab => 'Colors' picker"
+    },
+    "render_settings_tab_room_colors_fill": {
+        "message": "Remplissage de la pièce",
+        "description": "Render settings 'Room' tab => 'Colors' picker => Fill"
+    },
+    "render_settings_tab_room_colors_border": {
+        "message": "Bordure de la pièce",
+        "description": "Render settings 'Room' tab => 'Colors' picker => Border"
+    },
+    "render_settings_tab_room_colors_name": {
+        "message": "Nom de la pièce",
+        "description": "Render settings 'Room' tab => 'Colors' picker => Name"
+    },
+    "render_settings_tab_room_colors_subtitle": {
+        "message": "Sous-titre de la pièce",
+        "description": "Render settings 'Room' tab => 'Colors' picker => Subtitle"
+    },
+    "render_settings_tab_room_colors_dark": {
+        "message": "Hachure pour la pièce sombre",
+        "description": "Render settings 'Room' tab => 'Colors' picker => Darkness stripe"
+    },
+    "render_settings_tab_room_colors_start": {
+        "message": "Pièce de départ",
+        "description": "Render settings 'Room' tab => 'Colors' picker => Start room"
+    },
+    "render_settings_tab_room_colors_end": {
+        "message": "Pièce de la fin",
+        "description": "Render settings 'Room' tab => 'Colors' picker => End room"
+    },
+    "render_settings_tab_line": {
+        "message": "Ligne",
+        "description": "Render settings 'Line' tab title"
+    },
+    "render_settings_tab_line_style": {
+        "message": "Style pour les connecteurs par défaut",
+        "description": "Render settings 'Line' tab => 'Line style' picker"
+    },
+    "render_settings_tab_line_length": {
+        "message": "Hauteur du connecteur par défaut",
+        "description": "Render settings 'Line' tab => 'Stalk length' slider"
+    },
+    "render_settings_tab_line_distance": {
+        "message": "Distance du texte",
+        "description": "Render settings 'Line' tab => 'Label distance' slider"
+    },
+    "render_settings_tab_line_size": {
+        "message": "Taille de la flèche (une seule tête)",
+        "description": "Render settings 'Line' tab => 'One-way arrow size' slider"
+    },
+    "render_settings_tab_line_curve": {
+        "message": "Utiliser des courbes",
+        "description": "Render settings 'Line' tab => 'Use curves' checkbox"
+    },
+    "render_settings_tab_line_curve_strength": {
+        "message": "Force des connecteurs courbes par défaut",
+        "description": "Render settings 'Line' tab => 'Curve strength' slider"
+    },
+    "render_settings_tab_line_colors": {
+        "message": "Couleur des connecteurs par défaut",
+        "description": "Render settings 'Line' tab => 'Colors' picker"
+    },
+    "render_settings_tab_note": {
+        "message": "Note",
+        "description": "Render settings 'Note' tab title"
+    },
+    "render_settings_tab_note_width": {
+        "message": "Largeur de la not par défaut",
+        "description": "Render settings 'Note' tab => 'Note width' slider"
+    },
+    "render_settings_tab_note_height": {
+        "message": "Hauteur de la note par défaut",
+        "description": "Render settings 'Note' tab => 'Note height' slider"
+    },
+    "render_settings_tab_note_shape": {
+        "message": "Forme de la note par défaut",
+        "description": "Render settings 'Note' tab => 'Note shape' picker"
+    },
+    "render_settings_tab_note_rounding": {
+        "message": "Arrondi de la note par défaut",
+        "description": "Render settings 'Note' tab => 'Rounding' slider"
+    },
+    "render_settings_tab_note_border": {
+        "message": "Style de la bordure de la note par défaut",
+        "description": "Render settings 'Note' tab => 'Border style' picker"
+    },
+    "render_settings_tab_note_colors": {
+        "message": "Couleurs par défaut",
+        "description": "Render settings 'Note' tab => 'Colors' picker"
+    },
+    "render_settings_tab_note_colors_fill": {
+        "message": "Remplissage de la note",
+        "description": "Render settings 'Note' tab => 'Colors' picker => Fill"
+    },
+    "render_settings_tab_note_colors_border": {
+        "message": "Bordure de la note",
+        "description": "Render settings 'Note' tab => 'Colors' picker => Border"
+    },
+    "render_settings_tab_note_colors_text": {
+        "message": "Texte de la note",
+        "description": "Render settings 'Note' tab => 'Colors' picker => Text"
+    },
+    "render_settings_tab_block": {
+        "message": "Bloc",
+        "description": "Render settings 'Block' tab title"
+    },
+    "render_settings_tab_block_width": {
+        "message": "Largeur du bloc par défaut",
+        "description": "Render settings 'Block' tab => 'Block width' slider"
+    },
+    "render_settings_tab_block_height": {
+        "message": "Hauteur du bloc par défaut",
+        "description": "Render settings 'Block' tab => 'Block height' slider"
+    },
+    "render_settings_tab_block_shape": {
+        "message": "Forme du bloc par défaut",
+        "description": "Render settings 'Block' tab => 'Block shape' picker"
+    },
+    "render_settings_tab_block_rounding": {
+        "message": "Arrondi du bloc par défaut",
+        "description": "Render settings 'Block' tab => 'Rounding' slider"
+    },
+    "render_settings_tab_block_border": {
+        "message": "Style de la bordure pour le bloc par défaut",
+        "description": "Render settings 'Block' tab => 'Border style' picker"
+    },
+    "render_settings_tab_block_colors": {
+        "message": "Couleur du bloc par défaut",
+        "description": "Render settings 'Block' tab => 'Colors' picker"
+    },
+    "render_settings_tab_block_colors_fill": {
+        "message": "Remplissage du bloc",
+        "description": "Render settings 'Block' tab => 'Colors' picker => Fill"
+    },
+    "render_settings_tab_block_colors_border": {
+        "message": "Bordure du bloc",
+        "description": "Render settings 'Block' tab => 'Colors' picker => Border"
     },
     "export_map_title": {
         "message": "Exporter"
@@ -53,6 +313,58 @@
     },
     "apply_theme_text": {
         "message": "Attention, appliquer un nouveau thème écrasera tous les paramètres d'affichage. Continuer ?"
+    },
+    "panel_tool_cursor_hint": {
+        "message": "Curseur",
+        "description": "Tool panel => Cursor icon hint"
+    },
+    "panel_tool_room_hint": {
+        "message": "Ajouter une pièce",
+        "description": "Tool panel => Room icon hint"
+    },
+    "panel_tool_note_hint": {
+        "message": "Ajouter une note (N)",
+        "description": "Tool panel => Note icon hint"
+    },
+    "panel_tool_block_hint": {
+        "message": "Ajouter un bloc (B)",
+        "description": "Tool panel => Block icon hint"
+    },
+    "panel_block_title": {
+        "message": "Bloc",
+        "description": "Block panel headline"
+    },
+    "panel_block_tab_info": {
+        "message": "Info",
+        "description": "Block panel 'Info' tab title"
+    },
+    "panel_block_tab_info_shape": {
+        "message": "Forme du bloc",
+        "description": "Block panel 'Info' tab => 'Block shape' picker"
+    },
+    "panel_block_tab_info_rounding": {
+        "message": "Rectangle arrondi",
+        "description": "Block panel 'Info' tab => 'Rectangle rounding' slider"
+    },
+    "panel_block_tab_style": {
+        "message": "Style",
+        "description": "Block panel 'Style' tab title"
+    },
+    "panel_block_tab_style_border": {
+        "message": "Style de la bordure",
+        "description": "Block panel 'Style' tab => 'Border style' picker"
+    },
+    "panel_block_tab_style_colors": {
+        "message": "Couleurs",
+        "description": "Block panel 'Style' tab => 'Colors' picker"
+    },
+    "panel_block_tab_style_colors_fill": {
+        "message": "Remplissage du bloc",
+        "description": "Block panel 'Style' tab => 'Colors' picker => Fill"
+    },
+    "panel_block_tab_style_colors_border": {
+        "message": "Bordure du bloc",
+        "description": "Block panel 'Style' tab => 'Colors' picker => Border"
     },
     "panel_note_title": {
         "message": "Note",
@@ -98,6 +410,138 @@
         "message": "Texte de la note",
         "description": "Note panel 'Style' tab => 'Colors' picker => Text"
     },
+    "panel_room_title": {
+        "message": "Pièce",
+        "description": "Room panel headline"
+    },
+    "panel_room_tab_info": {
+        "message": "Info",
+        "description": "Room panel 'Info' tab title"
+    },
+    "panel_room_tab_info_name": {
+        "message": "Nom de la pièce",
+        "description": "Room panel 'Info' tab => 'Room name' input"
+    },
+    "panel_room_tab_info_subtitle": {
+        "message": "Sous-titre de la pièce",
+        "description": "Room panel 'Info' tab => 'Room subtitle' input"
+    },
+    "panel_room_tab_info_dark": {
+        "message": "Sombre",
+        "description": "Room panel 'Info' tab => 'Dark' checkbox"
+    },
+    "panel_room_tab_info_start": {
+        "message": "Pièce de départ",
+        "description": "Room panel 'Info' tab => 'Start room' checkbox"
+    },
+    "panel_room_tab_info_end": {
+        "message": "Pièce de la fin",
+        "description": "Room panel 'Info' tab => 'End room' checkbox"
+    },
+    "panel_room_tab_info_shape": {
+        "message": "Forme de la pièce",
+        "description": "Room panel 'Info' tab => 'Room shape' picker"
+    },
+    "panel_room_tab_info_rounding": {
+        "message": "Rectangle arrondi",
+        "description": "Room panel 'Info' tab => 'Rectangle rounding' slider"
+    },
+    "panel_room_tab_info_description": {
+        "message": "Description de la pièce",
+        "description": "Room panel 'Info' tab => 'Room description' textarea"
+    },
+    "panel_room_tab_objects": {
+        "message": "Objets",
+        "description": "Room panel 'Objects' tab title"
+    },
+    "panel_room_tab_objects_none": {
+        "message": "Il n'y a pas d'objet à cet endroit",
+        "description": "Room panel 'Objects' tab => Empty object list text"
+    },
+    "panel_room_tab_objects_add_button": {
+        "message": "Ajouter un objet",
+        "description": "Room panel 'Objects' tab => 'Add object' button"
+    },
+    "panel_room_tab_style": {
+        "message": "Style",
+        "description": "Room panel 'Style' tab title"
+    },
+    "panel_room_tab_style_border": {
+        "message": "Style de la bordure",
+        "description": "Room panel 'Style' tab => 'Border style' picker"
+    },
+    "panel_room_tab_style_colors": {
+        "message": "Couleurs",
+        "description": "Room panel 'Style' tab => 'Colors' picker"
+    },
+    "panel_room_tab_style_colors_fill": {
+        "message": "Remplissage de la pièce",
+        "description": "Room panel 'Style' tab => 'Colors' picker => Fill"
+    },
+    "panel_room_tab_style_colors_border": {
+        "message": "Bordure de la pièce",
+        "description": "Room panel 'Style' tab => 'Colors' picker => Border"
+    },
+    "panel_room_tab_style_colors_name": {
+        "message": "Nom de la pièce",
+        "description": "Room panel 'Style' tab => 'Colors' picker => Name"
+    },
+    "panel_room_tab_style_colors_subtitle": {
+        "message": "Sous-titre de la chambre",
+        "description": "Room panel 'Style' tab => 'Colors' picker => Subtitle"
+    },
+    "panel_connector_title": {
+        "message": "Connecteur",
+        "description": "Connector panel headline"
+    },
+    "panel_connector_tab_info": {
+        "message": "Info",
+        "description": "Connector panel 'Info' tab title"
+    },
+    "panel_connector_tab_info_name": {
+        "message": "Nom du connecteur",
+        "description": "Connector panel 'Info' tab => 'Connector name' input"
+    },
+    "panel_connector_tab_info_curve": {
+        "message": "Courbe",
+        "description": "Connector panel 'Info' tab => 'Curve' checkbox"
+    },
+    "panel_connector_tab_info_uni": {
+        "message": "Flèche simple",
+        "description": "Connector panel 'Info' tab => 'One way' checkbox"
+    },
+    "panel_connector_tab_info_reverse_button": {
+        "message": "Inverser",
+        "description": "Connector panel 'Info' tab => 'Reverse' button"
+    },
+    "panel_connector_tab_info_start_type": {
+        "message": "Type du début",
+        "description": "Connector panel 'Info' tab => 'Start type' input"
+    },
+    "panel_connector_tab_info_start_label": {
+        "message": "Texte du début",
+        "description": "Connector panel 'Info' tab => 'Start label' input"
+    },
+    "panel_connector_tab_info_end_type": {
+        "message": "Type de la fin",
+        "description": "Connector panel 'Info' tab => 'End type' input"
+    },
+    "panel_connector_tab_info_end_label": {
+        "message": "Texte de la fin",
+        "description": "Connector panel 'Info' tab => 'End label' input"
+    },
+    "panel_connector_tab_style": {
+        "message": "Style",
+        "description": "Connector panel 'Style' tab title"
+    },
+    "panel_connector_tab_style_line": {
+        "message": "Style de la ligne",
+        "description": "Connector panel 'Style' tab => 'Line style' picker"
+    },
+    "panel_connector_tab_style_color": {
+        "message": "Couleur de la ligne",
+        "description": "Connector panel 'Style' tab => 'Line color' picker"
+    },
     "control_color_picker_recent": {
         "message": "Couleurs récentes",
         "description": "Color picker => 'Recent colors'"
@@ -105,6 +549,46 @@
     "control_color_picker_standard": {
         "message": "Couleurs standards",
         "description": "Color picker => 'Standard colors'"
+    },
+    "control_connector_picker_default": {
+        "message": "Défaut",
+        "description": "Connector Type picker => 'Default'"
+    },
+    "control_connector_picker_in": {
+        "message": "Dedans",
+        "description": "Connector Type picker => 'In'"
+    },
+    "control_connector_picker_out": {
+        "message": "Dehors",
+        "description": "Connector Type picker => 'Out'"
+    },
+    "control_connector_picker_up": {
+        "message": "En haut",
+        "description": "Connector Type picker => 'Up'"
+    },
+    "control_connector_picker_down": {
+        "message": "En bas",
+        "description": "Connector Type picker => 'Down'"
+    },
+    "control_object_editor_name": {
+        "message": "Nom",
+        "description": "Room object editor => Object => 'Name'"
+    },
+    "control_object_editor_description": {
+        "message": "Description",
+        "description": "Room object editor => Object => 'Description'"
+    },
+    "control_object_editor_type_actor": {
+        "message": "Acteur",
+        "description": "Room object editor => Object => Type picker => 'Actor'"
+    },
+    "control_object_editor_type_item": {
+        "message": "Objet",
+        "description": "Room object editor => Object => Type picker => 'Item'"
+    },
+    "control_object_editor_type_scenery": {
+        "message": "Décor",
+        "description": "Room object editor => Object => Type picker => 'Scenery'"
     },
     "app_file": {
         "message": "Fichier"
