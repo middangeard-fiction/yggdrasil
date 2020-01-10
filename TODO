@@ -41,6 +41,9 @@
     ☐ Localize general UI
 
 Bugs:
+  ✔ "load_map" resets locale to default (en). @done(20-01-10 09:08)
+    ✔ Introduce "set_language" message that, upon start-up, sends the language string from the desktop backend to the UI. @started(20-01-10 08:17) @done(20-01-10 08:48) @lasted(31m10s)
+    ✔ Append "load_map" to include the language string (use window.localstorage to store said string, for now). @started(20-01-10 08:48) @done(20-01-10 09:08) @lasted(20m9s)
 
 
 Untriaged:

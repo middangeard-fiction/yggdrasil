@@ -45,6 +45,9 @@ export class Desktop {
     // Listen for incoming Astilectron messages.
     astilectron.onMessage(function (message: any) {
       switch (message.name) {
+        case "set_language":
+          window.localStorage.setItem("appLanguage", message.payload);
+          break;
         case "prompt_quit":
           Desktop.promptQuit();
           break;
@@ -107,7 +110,7 @@ export class Desktop {
         case "load_map":
           new Window(App.i18n.getMessage("app_load_map_title"), App.i18n.getMessage("app_load_map_text"), () => {
             // OK
-            document.location.href = `index.html?map=${message.payload}`;
+            document.location.href = `index.html?map=${message.payload}&lang=${window.localStorage.getItem("appLanguage")}`;
             Dispatcher.notify(AppEvent.Load, null);
           }, () => {
             // Cancel

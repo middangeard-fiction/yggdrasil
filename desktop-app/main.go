@@ -281,6 +281,9 @@ func main() {
 		},
 		OnWait: func(app *astilectron.Astilectron, ws []*astilectron.Window, _ *astilectron.Menu, _ *astilectron.Tray, _ *astilectron.Menu) error {
 			w = ws[0]
+			if err := bootstrap.SendMessage(w, "set_language", lang); err != nil {
+				astilog.Error(errors.Wrap(err, "sending set_language event failed"))
+			}
 			return nil
 		},
 		RestoreAssets: RestoreAssets,
