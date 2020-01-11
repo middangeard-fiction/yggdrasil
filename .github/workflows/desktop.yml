@@ -17,9 +17,25 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: npm install and build
+    - name: Setup Go
+      uses: actions/setup-go@v1.0.0
+      with:
+        version: 1.13
+    - name: Setup env
+      run: |
+        echo "::set-env name=GOPATH::$(go env GOPATH)"
+        echo "::add-path::$(go env GOPATH)/bin"
+      shell: bash
+    - name: go get dependencies
+      run: |
+        go get -d ./desktop-app/...
+    - name: Install astilectron-bundler
+      run: |
+        go get -u github.com/asticode/go-astilectron-bundler/...
+        go install github.com/asticode/go-astilectron-bundler/astilectron-bundler
+    - name: npm install and bin-build
       run: |
         npm ci
-        npm run build --if-present
+        npm run bin-build --if-present
       env:
         CI: true

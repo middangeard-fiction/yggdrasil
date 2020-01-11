@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "build": "grunt build",
-    "bin-build": "grunt bin-build && cd desktop-app && astilectron-bundler -v",
+    "bin-build": "grunt bin-build && cd desktop-app && astilectron-bundler",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "node dev-server.js"
   },
