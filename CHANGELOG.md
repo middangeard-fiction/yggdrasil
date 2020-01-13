@@ -2,6 +2,17 @@
 
 All notable changes to "Yggdrasil" will be documented in this file.
 
+## [0.3.0] - 2020-01-12
+
+#### Added
+* The application is now fully translatable/localizable.
+  * Transifex Project: https://www.transifex.com/happy-ferret/yggdrasil/dashboard/
+
+### *Desktop App*
+
+#### Added
+* First official [builds](https://github.com/middangeard-fiction/yggdrasil/releases) available (Windows only).
+
 ## [0.2.0] - 2019-08-17
 
 #### Added
