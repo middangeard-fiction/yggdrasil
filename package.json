@@ -1,6 +1,6 @@
 {
   "name": "yggdrasil",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Yggdrasil is a fork of Alexander van Oostenrijk's Trizbort.io. A JavaScript implementation of Trizbort, the adventure game mapping and code generation software. It seeks to be a user-friendly authoring tool for Middangeard based Interactive Fiction",
   "main": "app.js",
   "scripts": {
