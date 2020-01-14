@@ -38,5 +38,9 @@ jobs:
         npm ci
         npm run bin-build --if-present
         ls desktop-app/output/linux-amd64
+    - uses: actions/upload-artifact@v1
+      with:
+        name: Yggdrasil
+        path: desktop-app/output/linux-amd64
       env:
         CI: true
