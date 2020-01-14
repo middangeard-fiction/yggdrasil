@@ -24,6 +24,7 @@ import { AdventureMap } from './maps/adventureMap.js';
 import { CastleofdoomMap } from './maps/castleofdoomMap.js';
 import { HitchhikersguideMap } from './maps/hhg.js';
 import { HobbitMap } from './maps/hobbitMap.js';
+import { IdToast } from './controls/controls.js';
 
 export class Editor implements Subscriber {
   private htmlCanvas: HTMLCanvasElement;
@@ -37,6 +38,9 @@ export class Editor implements Subscriber {
   private connectorHandle: ConnectorHandle;
   private copy: Array<Model> = new Array<Model>();
   private ctrlZoom: HTMLInputElement;
+
+  // Track help system state:
+  private roomsPlaced: number = 0;
 
   // Scroll/drag:
   private mouseX: number = -100;
@@ -930,6 +934,14 @@ export class Editor implements Subscriber {
     room.x = Grid.snap(this.mouseX);
     room.y = Grid.snap(this.mouseY);
     this.views.push(ViewFactory.create(room));
+
+    if(this.roomsPlaced == 0) {
+      IdToast.toast(App.i18n.getMessage("toast_rooms0_title"), App.i18n.getMessage("toast_rooms0_text"));
+    }
+    if(this.roomsPlaced == 1) {
+      IdToast.toast(App.i18n.getMessage("toast_rooms1_title"), App.i18n.getMessage("toast_rooms1_text"));
+    }
+    this.roomsPlaced++;
   }
 
   cmdAddNote() {

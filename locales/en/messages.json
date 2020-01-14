@@ -596,6 +596,20 @@
     "toast_welcome_text": {
         "message": "To start building your map, click the <b>room icon</b> in the left-hand bar and click anywhere on the map to place your first room."
     },
+    "toast_rooms0_title": {
+        "message": "Room details"
+    },
+    "toast_rooms0_text": {
+        "message": "You've placed your first room. You can edit its details by clicking it once (room popup) or double-clicking it (room details panel).",
+        "description": "Toast message upon placing first room."
+    },
+    "toast_rooms1_title": {
+        "message": "Connecting rooms"
+    },
+    "toast_rooms1_text": {
+        "message": "Now that you've placed multiple rooms, you can create connections between them. Select a source room and create a connection to a target room by dragging a line from the little connector circles.",
+        "description": "Toast message upon placing more than one room."
+    },
     "app_file": {
         "message": "File"
     },
