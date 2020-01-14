@@ -70,8 +70,7 @@ export class App {
 
     this.menuPanel = new MenuPanel();
 
-    let toast = new IdToast('#toast');
-    toast.setText(App.i18n.getMessage("toast_welcome"));
+    IdToast.toast(App.i18n.getMessage("toast_welcome_title"), App.i18n.getMessage("toast_welcome_text"));
   }
 
   static pushUndo() {
