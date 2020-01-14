@@ -5,7 +5,7 @@ import { Room } from '../../models/room.js';
 import { App } from '../../app.js';
 import { RoomShape } from '../../enums/enums.js';
 import { Panel } from '../panels.js';
-import { IdColorPicker, IdInput, IdRange, IdCheck, IdTextarea, IdPopup, IdShape, IdLineStyle } from '../../controls/controls.js';
+import { IdColorPicker, IdInput, IdRange, IdCheck, IdTextarea, IdPopup, IdShape, IdLineStyle, IdToast } from '../../controls/controls.js';
 import { Obj } from '../../models/obj.js';
 import { IdObjectEditor } from '../../controls/idObjectEditor/idObjectEditor.js';
 
@@ -27,6 +27,7 @@ export class RoomPanel extends Panel implements Subscriber {
   private ctrlShape: IdShape;
   private objList: HTMLElement;
   private editors: Array<IdObjectEditor>;
+  private objectsCreated: number = 0;
 
   constructor() {
     super('roompanel', Handlebars.templates.roomPanel, {});
@@ -63,6 +64,11 @@ export class RoomPanel extends Panel implements Subscriber {
     let obj = new Obj();
     this.room.objects.push(obj);
     this.refreshObjList();
+    // Show help for first object created.
+    if(this.objectsCreated == 0) {
+      IdToast.toast(App.i18n.getMessage("toast_objects0_title"), App.i18n.getMessage("toast_objects0_text"));
+    }
+    this.objectsCreated++;
   }
 
   // 
