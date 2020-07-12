@@ -1,10 +1,7 @@
 import { Map } from "../../models/map";
-import { Room } from "../../models/room";
-import { Connector } from "../../models/connector";
-import { Model } from "../../models/model";
-import { Direction, ObjectKind } from "../../enums/enums";
+import { Direction, ConnectorType } from "../../enums/enums";
 import { CodeGenerator } from "../CodeGenerator";
-import { Obj } from "../../models/obj";
+
 
 export class Middangeard1Generator extends CodeGenerator {
   private rooms: Array<string> = new Array<string>();
@@ -13,7 +10,7 @@ export class Middangeard1Generator extends CodeGenerator {
   constructor(map: Map) {
     super(map);
     Handlebars.registerHelper('className', (name: string) => { return this.className(name); });
-    Handlebars.registerHelper('dirToStr', (dir: Direction) => { return this.capitalize(this.dirToStr(dir)); });
+    Handlebars.registerHelper('dirToStr', (dir: Direction, type: ConnectorType) => { return this.capitalize(this.dirToStr(dir, type)); });
   }
 
   protected className(str: string) {

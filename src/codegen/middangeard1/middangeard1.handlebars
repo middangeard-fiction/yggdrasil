@@ -52,7 +52,7 @@ func init() {
 			Lit: {{#if this.dark}}false{{else}}true{{/if}},
 			Directions: mid.Directions{
         {{#each this.connections}}
-                {{ dirToStr this.startDir }}: "{{{className this.room.name}}}",
+                {{ dirToStr this.startDir this.startType }}: "{{{className this.room.name}}}",
           {{/each}}
 			},
 			Items: mid.Items{
