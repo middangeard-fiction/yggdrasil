@@ -159,6 +159,16 @@ func main() {
 									return false
 								},
 							},
+							{Type: astilectron.MenuItemTypeSeparator},
+							{
+								Label: astilectron.PtrStr("TextAdventure.js"),
+								OnClick: func(e astilectron.Event) (deleteListener bool) {
+									if err := bootstrap.SendMessage(w, "export_map", "textjs"); err != nil {
+										astilog.Error(errors.Wrap(err, "sending export_map event failed"))
+									}
+									return false
+								},
+							},
 						},
 					},
 					{Type: astilectron.MenuItemTypeSeparator},

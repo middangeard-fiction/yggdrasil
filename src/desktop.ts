@@ -8,6 +8,7 @@ import { Inform7Generator } from "./codegen/inform7/Inform7Generator";
 import { Alan2Generator } from "./codegen/alan2/alan2Generator";
 import { Alan3Generator } from "./codegen/alan3/alan3Generator";
 import { QuestGenerator } from "./codegen/quest/questGenerator";
+import { TextadventurejsGenerator } from "./codegen/textadventurejs/TextadventurejsGenerator";
 
 export enum FileType {
   Yggdrasil,
@@ -103,6 +104,9 @@ export class Desktop {
               break;
             case "quest":
               App.menuPanel.actionGenerateCode(new QuestGenerator(App.map), 'aslx')
+              break;
+            case "textjs":
+              App.menuPanel.actionGenerateCode(new TextadventurejsGenerator(App.map), 'txt')
               break;
           }
           break;
