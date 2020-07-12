@@ -2,6 +2,16 @@
 
 All notable changes to "Yggdrasil" will be documented in this file.
 
+## [0.4.0] - 2020-07-12
+
+#### Added
+* Upstream changes by Trizbort.io
+  * Keyboard help
+  * Help Toasts
+  * TextAdventure.js exporter
+  * Holding the right mouse button and moving the mouse now pans the map.
+  * Copied and pasted objects now appear at the mouse position rather than the center of the window.
+
 ## [0.3.0] - 2020-01-12
 
 #### Added
