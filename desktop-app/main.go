@@ -170,6 +170,15 @@ func main() {
 								},
 							},
 							{
+								Label: astilectron.PtrStr("YAML"),
+								OnClick: func(e astilectron.Event) (deleteListener bool) {
+									if err := bootstrap.SendMessage(w, "export_map", "yaml"); err != nil {
+										astilog.Error(errors.Wrap(err, "sending export_map event failed"))
+									}
+									return false
+								},
+							},
+							{
 								Label: astilectron.PtrStr("ZIL"),
 								OnClick: func(e astilectron.Event) (deleteListener bool) {
 									if err := bootstrap.SendMessage(w, "export_map", "zil"); err != nil {

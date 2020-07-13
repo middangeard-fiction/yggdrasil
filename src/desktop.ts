@@ -9,6 +9,7 @@ import { Alan2Generator } from "./codegen/alan2/alan2Generator";
 import { Alan3Generator } from "./codegen/alan3/alan3Generator";
 import { QuestGenerator } from "./codegen/quest/questGenerator";
 import { TextadventurejsGenerator } from "./codegen/textadventurejs/TextadventurejsGenerator";
+import { YamlGenerator } from "./codegen/yaml/YamlGenerator";
 import { ZilGenerator } from "./codegen/zil/zilgenerator";
 
 export enum FileType {
@@ -108,6 +109,9 @@ export class Desktop {
               break;
             case "textjs":
               App.menuPanel.actionGenerateCode(new TextadventurejsGenerator(App.map), 'txt')
+              break;
+            case "yaml":
+              App.menuPanel.actionGenerateCode(new YamlGenerator(App.map), 'yaml')
               break;
             case "zil":
               App.menuPanel.actionGenerateCode(new ZilGenerator(App.map), 'zil')
