@@ -2,6 +2,23 @@
 
 All notable changes to "Yggdrasil" will be documented in this file.
 
+## [0.5.0] - 2020-07-13
+
+#### Added
+* All existing Exporters
+  * "Up/Down" connector direction.
+  * "In/Out" connector direction.
+* TADS exporter
+  * Dark room support.
+* Quest exporter
+  * Dark room support.
+* Alan 3 exporter
+  * Dark room support.
+* ZIL Exporter
+  * Initial support.
+* YAML Exporter
+  * Initial support.
+
 ## [0.4.0] - 2020-07-12
 
 #### Added
